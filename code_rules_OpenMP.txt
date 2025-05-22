@@ -1,4 +1,13 @@
-########## OpenMP Code Examples###########
+########## OpenMP Code Examples
+Architecture:            x86_64
+CPU(s):                  12
+  Model name: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+NVIDIA-SMI 535.183.01             
+Driver Version: 535.183.01   
+CUDA Version: 12.2     |
+NVIDIA GeForce RTX 2080  
+###########
+
 ###### Example_id == 'example_1.c'
 NO Error
 ######

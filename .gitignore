@@ -1,0 +1,14 @@
+# Ignore executables (no extension)
+padding_char
+
+# Ignore all files without extension (common for executables)
+*
+
+# But allow source files and scripts
+!*.cu
+!*.cpp
+!*.h
+!*.c
+!*.py
+!*.sh
+!*.md

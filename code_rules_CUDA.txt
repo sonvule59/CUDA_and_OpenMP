@@ -1,0 +1,41 @@
+########## CUDA Code Examples
+Architecture:            x86_64
+CPU(s):                  12
+  Model name: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+NVIDIA-SMI 535.183.01             
+Driver Version: 535.183.01   
+CUDA Version: 12.2     |
+NVIDIA GeForce RTX 2080  
+###########
+
+###### Example_id == 'example_1.c'
+NO Error
+######
+
+###### Example_id == 'example_4.c'
+Error Code
+Error
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+
+Fix Guide
+Missing main function, suggesting the code is being compiled as a standalone program.
+Undefined references to global variables (internal_count, stencil_size, u, v, neighbors, Wx_val, Wy_val, GammaHV, x_sol, y_sol, hv_sol)
+
+Fixed Code:
+int internal_count = 256; // 16x16 grid
+
+int stencil_size = 4;
+
+int grid_size = (int)sqrt((double)internal_count);
+
+for (int i = 0; i < internal_count; i++) {
+        u[i] = 1.0f;
+
+void generate_v(float time_step) {
+    for (int i = 0; i < internal_count; i++) {
+        v[i] = 0.5f;
+    }
+}
+
+######
