@@ -1,0 +1,4070 @@
+ Compilation failed for: s277567170.cpp
+---- Compile stderr ----
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+2 errors detected in the compilation of "/tmp/tmpy78xzud5/program_0.cu".
+
+ Compilation failed for: s591173196.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_1.cu(3): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_1.cu(3): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_1.cu(19): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_1.cu(19): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+4 errors detected in the compilation of "/tmp/tmpy78xzud5/program_1.cu".
+
+ Compilation failed for: s720498558.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_2.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_2.cu(3): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_2.cu(3): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_2.cu(3): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_2.cu(3): error: expected a ")"
+
+At end of source: error: expected a ";"
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_2.cu".
+
+ Compilation failed for: s747701587.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_3.cu(3): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_3.cu(3): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_3.cu(18): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_3.cu(18): error: expected a ";"
+
+4 errors detected in the compilation of "/tmp/tmpy78xzud5/program_3.cu".
+
+ Compilation failed for: s414418075.cpp
+---- Compile stderr ----
+At end of source: error: expected a ")"
+
+/tmp/tmpy78xzud5/program_4.cu(5): error: a __global__ function must have a void return type
+
+At end of source: error: expected a ";"
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_4.cu".
+
+ Compilation failed for: s774811895.cpp
+---- Compile stderr ----
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+2 errors detected in the compilation of "/tmp/tmpy78xzud5/program_5.cu".
+
+ Compilation failed for: s740750588.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_6.cu(28): error: a __global__ function call must be configured
+
+/tmp/tmpy78xzud5/program_6.cu(32): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_6.cu(32): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_6.cu".
+
+ Compilation failed for: s525114260.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_7.cu(15): error: "t" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(16): error: "u" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(17): error: "v" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(18): error: "w" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(19): error: "x" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(20): error: "y" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(21): error: "z" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(22): error: "w" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(23): error: "x" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(24): error: "y" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(25): error: "z" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(26): error: "w" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(27): error: "x" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(28): error: "y" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(29): error: "z" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_7.cu(30): error: "w" has already been declared in the current scope
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a "]"
+
+At end of source: error: expected a ";"
+
+/tmp/tmpy78xzud5/program_7.cu(7): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(8): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(9): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(10): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(11): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(12): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(13): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(14): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(15): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(16): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(17): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(18): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(19): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(20): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(21): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(22): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(23): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(24): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(25): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(26): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(27): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(28): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_7.cu(29): warning #177-D: variable "z" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+20 errors detected in the compilation of "/tmp/tmpy78xzud5/program_7.cu".
+
+ Compilation failed for: s183513404.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_8.cu(2): error: duplicate parameter name
+
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_8.cu".
+
+ Compilation failed for: s913000658.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_9.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_9.cu(3): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_9.cu(3): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_9.cu(3): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_9.cu(3): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_9.cu(4): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_9.cu(25): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpy78xzud5/program_9.cu(52): error: variable "d" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(53): error: variable "e" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(54): error: variable "f" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(55): error: variable "g" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(56): error: variable "h" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(57): error: variable "i" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(58): error: variable "j" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(59): error: variable "k" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(60): error: variable "l" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(61): error: variable "m" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(62): error: variable "n" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(63): error: variable "o" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(64): error: variable "p" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(65): error: variable "q" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(66): error: variable "r" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(67): error: variable "s" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(68): error: variable "t" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(69): error: variable "u" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(70): error: variable "v" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(71): error: variable "w" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(72): error: variable "x" has already been defined
+
+/tmp/tmpy78xzud5/program_9.cu(73): error: variable "y" has already been defined
+
+27 errors detected in the compilation of "/tmp/tmpy78xzud5/program_9.cu".
+
+ Compilation failed for: s383798930.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_10.cu(19): error: a __global__ function call must be configured
+
+/tmp/tmpy78xzud5/program_10.cu(26): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_10.cu(26): error: expected a ";"
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_10.cu".
+
+ Compilation failed for: s096087960.cpp
+---- Compile stderr ----
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+2 errors detected in the compilation of "/tmp/tmpy78xzud5/program_11.cu".
+
+ Compilation failed for: s430907252.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_12.cu(2): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_12.cu(2): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_12.cu(12): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_12.cu(12): error: expected a ";"
+
+4 errors detected in the compilation of "/tmp/tmpy78xzud5/program_12.cu".
+
+ Compilation failed for: s244613793.cpp
+---- Compile stderr ----
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+2 errors detected in the compilation of "/tmp/tmpy78xzud5/program_13.cu".
+
+ Compilation failed for: s067647311.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_14.cu:128:11: error: missing terminating > character
+  128 | #include <
+      |           ^
+/tmp/tmpy78xzud5/program_14.cu:128:10: error: empty filename in #include
+  128 | #include <
+      |          ^
+
+ Compilation failed for: s347201859.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_15.cu(11): error: function "multiply" has already been defined
+
+/tmp/tmpy78xzud5/program_15.cu(20): error: function "multiply" has already been defined
+
+/tmp/tmpy78xzud5/program_15.cu(29): error: function "multiply" has already been defined
+
+/tmp/tmpy78xzud5/program_15.cu(38): error: function "multiply" has already been defined
+
+/tmp/tmpy78xzud5/program_15.cu(47): error: function "multiply" has already been defined
+
+/tmp/tmpy78xzud5/program_15.cu(56): error: function "multiply" has already been defined
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a ")"
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+At end of source: error: expected a "}"
+
+12 errors detected in the compilation of "/tmp/tmpy78xzud5/program_15.cu".
+
+ Compilation failed for: s334461211.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_16.cu(3): error: identifier "int64" is undefined
+
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+22 errors detected in the compilation of "/tmp/tmpy78xzud5/program_16.cu".
+
+ Compilation failed for: s934624544.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_17.cu(2): error: duplicate parameter name
+
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_17.cu".
+
+ Compilation failed for: s718781871.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_18.cu:128:17: error: missing terminating > character
+  128 | #include <vector
+      |                 ^
+
+ Compilation failed for: s720634180.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_19.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_19.cu(2): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_19.cu(2): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_19.cu(2): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_19.cu(2): error: expected a ")"
+
+At end of source: error: expected a ";"
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_19.cu".
+
+ Compilation failed for: s918567937.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_20.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_20.cu(2): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_20.cu(2): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_20.cu(2): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_20.cu(2): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_20.cu(3): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_20.cu".
+
+ Compilation failed for: s663158154.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_21.cu(2): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_21.cu(2): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_21.cu(11): error: identifier "I" is undefined
+
+/tmp/tmpy78xzud5/program_21.cu(11): error: expected a ";"
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_21.cu".
+
+ Compilation failed for: s344141930.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_22.cu(2): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_22.cu(2): error: function main cannot be marked __device__ or __global__
+
+At end of source: error: expected a ";"
+
+/tmp/tmpy78xzud5/program_22.cu(4): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(5): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(6): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(7): warning #177-D: variable "idx" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(8): warning #177-D: variable "idx2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(9): warning #177-D: variable "idx3" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(10): warning #177-D: variable "idx4" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(11): warning #177-D: variable "idx5" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(12): warning #177-D: variable "idx6" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(13): warning #177-D: variable "idx7" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(14): warning #177-D: variable "idx8" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(15): warning #177-D: variable "idx9" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(16): warning #177-D: variable "idx10" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(17): warning #177-D: variable "idx11" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(18): warning #177-D: variable "idx12" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(19): warning #177-D: variable "idx13" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(20): warning #177-D: variable "idx14" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(21): warning #177-D: variable "idx15" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(22): warning #177-D: variable "idx16" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(23): warning #177-D: variable "idx17" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(24): warning #177-D: variable "idx18" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(25): warning #177-D: variable "idx19" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(26): warning #177-D: variable "idx20" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(27): warning #177-D: variable "idx21" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(28): warning #177-D: variable "idx22" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_22.cu(29): warning #177-D: variable "idx23" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_22.cu".
+
+ Compilation failed for: s711367986.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_23.cu(7): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_23.cu(7): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_23.cu(7): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_23.cu(7): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_23.cu(7): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_23.cu(8): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_23.cu".
+
+ Compilation failed for: s137903426.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_24.cu(2): error: expected an identifier
+
+/tmp/tmpy78xzud5/program_24.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_24.cu(3): error: type name is not allowed
+
+/tmp/tmpy78xzud5/program_24.cu(3): error: expected a ","
+
+/tmp/tmpy78xzud5/program_24.cu(3): error: identifier "y" is undefined
+
+/tmp/tmpy78xzud5/program_24.cu(3): error: identifier "z" is undefined
+
+/tmp/tmpy78xzud5/program_24.cu(3): error: expected a "}"
+
+/tmp/tmpy78xzud5/program_24.cu(3): error: too many initializer values
+
+/tmp/tmpy78xzud5/program_24.cu(4): error: this declaration has no storage class or type specifier
+
+/tmp/tmpy78xzud5/program_24.cu(5): error: this declaration has no storage class or type specifier
+
+/tmp/tmpy78xzud5/program_24.cu(6): error: expected a declaration
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+10 errors detected in the compilation of "/tmp/tmpy78xzud5/program_24.cu".
+
+ Compilation failed for: s807335768.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_25.cu(28): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_25.cu(28): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_25.cu(35): error: unrecognized token
+
+/tmp/tmpy78xzud5/program_25.cu(35): error: unrecognized token
+
+/tmp/tmpy78xzud5/program_25.cu(35): error: unrecognized token
+
+/tmp/tmpy78xzud5/program_25.cu(62): error: unrecognized token
+
+/tmp/tmpy78xzud5/program_25.cu(62): error: unrecognized token
+
+/tmp/tmpy78xzud5/program_25.cu(62): error: unrecognized token
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+8 errors detected in the compilation of "/tmp/tmpy78xzud5/program_25.cu".
+
+ Compilation failed for: s052964803.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_26.cu(2): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_26.cu(2): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_26.cu(28): error: "i" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(29): error: "j" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(30): error: "k" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(31): error: "l" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(32): error: "m" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(33): error: "n" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(34): error: "p" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(35): error: "q" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(36): error: "r" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(37): error: "s" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(38): error: "t" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(39): error: "u" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(40): error: "v" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(41): error: "w" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(42): error: "x" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(43): error: "y" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(44): error: "z" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(45): error: "a" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(46): error: "b" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(47): error: "c" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(48): error: "d" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(49): error: "e" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(50): error: "f" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(51): error: "g" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(52): error: "h" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(53): error: "i" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(54): error: "j" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(55): error: "k" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(56): error: "l" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(57): error: "m" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(58): error: "n" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(59): error: "p" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(60): error: "q" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(61): error: "r" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(62): error: "s" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(63): error: "t" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(64): error: "u" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(65): error: "v" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(66): error: "w" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(67): error: "x" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(68): error: "y" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(69): error: "z" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(70): error: "a" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(71): error: "b" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(72): error: "c" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_26.cu(73): error: "d" has already been declared in the current scope
+
+At end of source: error: expected an identifier
+
+At end of source: error: expected a ";"
+
+/tmp/tmpy78xzud5/program_26.cu(3): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(4): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(5): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(6): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(7): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(8): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(9): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(10): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(11): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(12): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(13): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(14): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(15): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(16): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(17): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(18): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(19): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(20): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(21): warning #177-D: variable "b" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(22): warning #177-D: variable "c" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(23): warning #177-D: variable "d" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(24): warning #177-D: variable "e" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(25): warning #177-D: variable "f" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(26): warning #177-D: variable "g" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(27): warning #177-D: variable "h" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(28): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(29): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(30): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(31): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(32): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(33): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(34): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(35): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(36): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(37): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(38): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(39): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(40): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(41): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(42): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(43): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(44): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(45): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(46): warning #177-D: variable "b" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(47): warning #177-D: variable "c" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(48): warning #177-D: variable "d" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(49): warning #177-D: variable "e" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(50): warning #177-D: variable "f" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(51): warning #177-D: variable "g" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(52): warning #177-D: variable "h" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(53): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(54): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(55): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(56): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(57): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(58): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(59): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(60): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(61): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(62): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(63): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(64): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(65): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(66): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(67): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(68): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(69): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(70): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(71): warning #177-D: variable "b" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(72): warning #177-D: variable "c" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_26.cu(73): warning #177-D: variable "d" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+50 errors detected in the compilation of "/tmp/tmpy78xzud5/program_26.cu".
+
+ Compilation failed for: s667847559.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_27.cu(3): warning #177-D: variable "idx" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(4): warning #177-D: variable "idx2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(5): warning #177-D: variable "idx3" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(6): warning #177-D: variable "idx4" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(7): warning #177-D: variable "idx5" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(8): warning #177-D: variable "idx6" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(9): warning #177-D: variable "idx7" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(10): warning #177-D: variable "idx8" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(11): warning #177-D: variable "idx9" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(12): warning #177-D: variable "idx10" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(13): warning #177-D: variable "idx11" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(14): warning #177-D: variable "idx12" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(15): warning #177-D: variable "idx13" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(16): warning #177-D: variable "idx14" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(17): warning #177-D: variable "idx15" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(18): warning #177-D: variable "idx16" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(19): warning #177-D: variable "idx17" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(20): warning #177-D: variable "idx18" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(21): warning #177-D: variable "idx19" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(22): warning #177-D: variable "idx20" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(23): warning #177-D: variable "idx21" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(24): warning #177-D: variable "idx22" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(25): warning #177-D: variable "idx23" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(26): warning #177-D: variable "idx24" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(27): warning #177-D: variable "idx25" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(28): warning #177-D: variable "idx26" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(29): warning #177-D: variable "idx27" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(30): warning #177-D: variable "idx28" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(31): warning #177-D: variable "idx29" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(32): warning #177-D: variable "idx30" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(33): warning #177-D: variable "idx31" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(34): warning #177-D: variable "idx32" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(35): warning #177-D: variable "idx33" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(36): warning #177-D: variable "idx34" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(37): warning #177-D: variable "idx35" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(38): warning #177-D: variable "idx36" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(39): warning #177-D: variable "idx37" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(40): warning #177-D: variable "idx38" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(41): warning #177-D: variable "idx39" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(42): warning #177-D: variable "idx40" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(43): warning #177-D: variable "idx41" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(44): warning #177-D: variable "idx42" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(45): warning #177-D: variable "idx43" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(46): warning #177-D: variable "idx44" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(47): warning #177-D: variable "idx45" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(48): warning #177-D: variable "idx46" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(49): warning #177-D: variable "idx47" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(50): warning #177-D: variable "idx48" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(51): warning #177-D: variable "idx49" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(52): warning #177-D: variable "idx50" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(53): warning #177-D: variable "idx51" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(54): warning #177-D: variable "idx52" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(55): warning #177-D: variable "idx53" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(56): warning #177-D: variable "idx54" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_27.cu(57): warning #177-D: variable "idx55" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+1 error detected in the compilation of "/tmp/tmpy78xzud5/program_27.cu".
+
+ Compilation failed for: s684512577.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_28.cu:118:9: error: #include expects "FILENAME" or <FILENAME>
+  118 | #include
+      |         ^
+
+ Compilation failed for: s556743760.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_29.cu:9:10: fatal error: cuda_runtime: No such file or directory
+    9 | #include <cuda_runtime>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+
+ Compilation failed for: s584146942.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_30.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_30.cu(3): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_30.cu(3): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_30.cu(3): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_30.cu(3): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_30.cu(4): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_30.cu".
+
+ Compilation failed for: s138999449.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_31.cu(2): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_31.cu(2): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_31.cu(3): warning #550-D: variable "x" was set but never used
+
+/tmp/tmpy78xzud5/program_31.cu(14): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_31.cu(14): error: expected a ";"
+
+4 errors detected in the compilation of "/tmp/tmpy78xzud5/program_31.cu".
+
+ Compilation failed for: s450938506.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_32.cu(3): error: expected an identifier
+
+/tmp/tmpy78xzud5/program_32.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_32.cu(4): error: type name is not allowed
+
+/tmp/tmpy78xzud5/program_32.cu(4): error: expected a ","
+
+/tmp/tmpy78xzud5/program_32.cu(4): error: expected a "}"
+
+/tmp/tmpy78xzud5/program_32.cu(29): error: variable "j" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(30): error: variable "k" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(32): error: variable "m" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(33): error: variable "n" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(35): error: variable "p" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(36): error: variable "q" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(37): error: variable "r" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(38): error: variable "s" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(39): error: variable "t" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(40): error: variable "u" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(41): error: variable "v" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(42): error: variable "w" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(43): error: variable "x" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(44): error: variable "y" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(45): error: variable "z" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(46): error: variable "a" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(47): error: variable "b" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(48): error: variable "c" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(49): error: variable "d" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(50): error: variable "e" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(51): error: variable "f" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(52): error: variable "g" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(53): error: variable "h" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(54): error: variable "i" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(55): error: variable "j" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(56): error: variable "k" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(57): error: variable "l" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(58): error: variable "m" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(59): error: variable "n" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(60): error: variable "o" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(61): error: variable "p" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(62): error: variable "q" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(63): error: variable "r" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(64): error: variable "s" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(65): error: variable "t" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(66): error: variable "u" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(67): error: variable "v" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(68): error: variable "w" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(69): error: variable "x" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(70): error: variable "y" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(71): error: variable "z" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(72): error: variable "a" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(73): error: variable "b" has already been defined
+
+/tmp/tmpy78xzud5/program_32.cu(74): error: variable "c" has already been defined
+
+At end of source: error: expected a ";"
+
+49 errors detected in the compilation of "/tmp/tmpy78xzud5/program_32.cu".
+
+ Compilation failed for: s486582479.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_33.cu(1): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_33.cu(1): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_33.cu(27): error: "i" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(28): error: "j" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(29): error: "k" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(30): error: "l" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(31): error: "m" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(32): error: "n" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(34): error: "p" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(35): error: "q" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(36): error: "r" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(37): error: "s" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(38): error: "t" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(39): error: "u" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(40): error: "v" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(41): error: "w" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(42): error: "x" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(43): error: "y" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(44): error: "z" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(45): error: "a" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(46): error: "b" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(47): error: "c" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(48): error: "d" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(49): error: "e" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(50): error: "f" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(51): error: "g" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(52): error: "h" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(53): error: "i" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(54): error: "j" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(55): error: "k" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(56): error: "l" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(57): error: "m" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(58): error: "n" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(59): error: "o" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(60): error: "p" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(61): error: "q" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(62): error: "r" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(63): error: "s" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(64): error: "t" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_33.cu(2): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(3): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(4): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(5): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(6): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(7): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(8): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(9): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(10): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(11): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(12): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(13): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(14): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(15): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(16): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(17): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(18): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(19): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(20): warning #177-D: variable "b" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(21): warning #177-D: variable "c" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(22): warning #177-D: variable "d" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(23): warning #177-D: variable "e" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(24): warning #177-D: variable "f" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(25): warning #177-D: variable "g" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(26): warning #177-D: variable "h" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(27): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(28): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(29): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(30): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(31): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(32): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(33): warning #177-D: variable "o" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(34): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(35): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(36): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(37): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(38): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(39): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(40): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(41): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(42): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(43): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(44): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(45): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(46): warning #177-D: variable "b" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(47): warning #177-D: variable "c" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(48): warning #177-D: variable "d" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(49): warning #177-D: variable "e" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(50): warning #177-D: variable "f" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(51): warning #177-D: variable "g" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(52): warning #177-D: variable "h" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(53): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(54): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(55): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(56): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(57): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(58): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(59): warning #177-D: variable "o" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(60): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(61): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(62): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(63): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_33.cu(64): warning #177-D: variable "t" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+39 errors detected in the compilation of "/tmp/tmpy78xzud5/program_33.cu".
+
+ Compilation failed for: s073698841.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_34.cu:128:9: error: #include expects "FILENAME" or <FILENAME>
+  128 | #include
+      |         ^
+
+ Compilation failed for: s672283213.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+ Compilation failed for: s549713213.cpp
+---- Compile stderr ----
+At end of source: error: expected an expression
+
+At end of source: error: expected a "]"
+
+At end of source: error: expected a ";"
+
+/tmp/tmpy78xzud5/program_36.cu(6): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(7): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(8): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(9): warning #177-D: variable "x2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(10): warning #177-D: variable "y2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(11): warning #177-D: variable "z2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(12): warning #177-D: variable "x3" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(13): warning #177-D: variable "y3" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(14): warning #177-D: variable "z3" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(15): warning #177-D: variable "x4" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(16): warning #177-D: variable "y4" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(17): warning #177-D: variable "z4" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(18): warning #177-D: variable "x5" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(19): warning #177-D: variable "y5" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(20): warning #177-D: variable "z5" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(21): warning #177-D: variable "x6" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(22): warning #177-D: variable "y6" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(23): warning #177-D: variable "z6" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_36.cu(24): warning #177-D: variable "x7" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+4 errors detected in the compilation of "/tmp/tmpy78xzud5/program_36.cu".
+
+ Compilation failed for: s259113958.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_37.cu:13:1741: warning: missing terminating ' character
+   13 | The user's code is not valid. The problem is that the code has a syntax error in the first line. The first line is not valid. The user's code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line. The user's code is not valid. The problem is that the code has a syntax error in the first line.
+      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ^
+/tmp/tmpy78xzud5/program_37.cu(2): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_37.cu(2): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_37.cu(3): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_37.cu(13): warning #1654-D: too many characters in character literal -- extra leading characters ignored
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: a multicharacter literal cannot be part of a user-defined literal
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_37.cu(13): warning #1654-D: too many characters in character literal -- extra leading characters ignored
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: a multicharacter literal cannot be part of a user-defined literal
+
+/tmp/tmpy78xzud5/program_37.cu(13): warning #1654-D: too many characters in character literal -- extra leading characters ignored
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: a multicharacter literal cannot be part of a user-defined literal
+
+/tmp/tmpy78xzud5/program_37.cu(13): warning #1654-D: too many characters in character literal -- extra leading characters ignored
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: a multicharacter literal cannot be part of a user-defined literal
+
+/tmp/tmpy78xzud5/program_37.cu(13): warning #1654-D: too many characters in character literal -- extra leading characters ignored
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: a multicharacter literal cannot be part of a user-defined literal
+
+/tmp/tmpy78xzud5/program_37.cu(13): warning #1654-D: too many characters in character literal -- extra leading characters ignored
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: a multicharacter literal cannot be part of a user-defined literal
+
+/tmp/tmpy78xzud5/program_37.cu(13): warning #1654-D: too many characters in character literal -- extra leading characters ignored
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: a multicharacter literal cannot be part of a user-defined literal
+
+/tmp/tmpy78xzud5/program_37.cu(13): warning #1654-D: too many characters in character literal -- extra leading characters ignored
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: a multicharacter literal cannot be part of a user-defined literal
+
+/tmp/tmpy78xzud5/program_37.cu(13): warning #1654-D: too many characters in character literal -- extra leading characters ignored
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: a multicharacter literal cannot be part of a user-defined literal
+
+/tmp/tmpy78xzud5/program_37.cu(13): error: missing closing quote
+
+14 errors detected in the compilation of "/tmp/tmpy78xzud5/program_37.cu".
+
+ Compilation failed for: s197138064.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_38.cu(2): error: duplicate parameter name
+
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_38.cu".
+
+ Compilation failed for: s481940347.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_39.cu(1): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_39.cu(1): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_39.cu(4): warning #549-D: variable "i" is used before its value is set
+
+/tmp/tmpy78xzud5/program_39.cu(4): warning #549-D: variable "j" is used before its value is set
+
+/tmp/tmpy78xzud5/program_39.cu(5): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_39.cu(11): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpy78xzud5/program_39.cu(3): warning #550-D: variable "times" was set but never used
+
+/tmp/tmpy78xzud5/program_39.cu(13): error: this declaration has no storage class or type specifier
+
+/tmp/tmpy78xzud5/program_39.cu(13): error: this declaration has no storage class or type specifier
+
+/tmp/tmpy78xzud5/program_39.cu(13): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_39.cu".
+
+ Compilation failed for: s486625289.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_40.cu(5): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_40.cu(5): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_40.cu(8): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(9): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(10): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(11): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(12): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(13): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(14): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(15): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(16): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(17): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(18): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(19): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(20): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(21): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(22): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(23): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(24): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(25): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(26): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(27): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(28): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(29): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(30): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(31): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(32): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(33): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(34): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(35): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(36): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(37): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(38): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(39): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(40): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(41): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(42): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(43): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(44): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(45): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(46): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(47): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(48): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(49): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(50): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(51): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(52): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(53): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(54): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(55): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(56): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(57): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(58): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(59): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(60): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(61): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(62): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(63): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(64): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(65): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(66): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(67): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(68): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(69): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(70): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(71): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(72): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(73): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(74): error: "jj" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_40.cu(75): error: identifier "__global" is undefined
+
+At end of source: error: expected a ";"
+
+/tmp/tmpy78xzud5/program_40.cu(7): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(7): warning #177-D: variable "ii" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(7): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(8): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(9): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(10): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(11): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(12): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(13): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(14): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(15): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(16): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(17): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(18): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(19): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(20): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(21): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(22): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(23): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(24): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(25): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(26): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(27): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(28): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(29): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(30): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(31): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(32): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(33): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(34): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(35): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(36): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(37): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(38): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(39): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(40): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(41): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(42): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(43): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(44): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(45): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(46): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(47): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(48): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(49): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(50): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(51): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(52): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(53): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(54): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(55): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(56): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(57): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(58): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(59): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(60): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(61): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(62): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(63): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(64): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(65): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(66): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(67): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(68): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(69): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(70): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(71): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(72): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(73): warning #177-D: variable "jj" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_40.cu(74): warning #177-D: variable "jj" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+72 errors detected in the compilation of "/tmp/tmpy78xzud5/program_40.cu".
+
+ Compilation failed for: s052518178.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_41.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_41.cu(2): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_41.cu(2): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_41.cu(2): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_41.cu(2): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_41.cu(2): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_41.cu".
+
+ Compilation failed for: s539088139.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_42.cu:5:9: warning: missing terminating ' character
+    5 | The user's answer should be a single line of valid CUDA code, not a block of code. The answer should be in the format:
+      |         ^
+/tmp/tmpy78xzud5/program_42.cu:9:13: warning: missing terminating ' character
+    9 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:15:13: warning: missing terminating ' character
+   15 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:21:13: warning: missing terminating ' character
+   21 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:27:13: warning: missing terminating ' character
+   27 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:33:13: warning: missing terminating ' character
+   33 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:39:13: warning: missing terminating ' character
+   39 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:45:13: warning: missing terminating ' character
+   45 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:51:13: warning: missing terminating ' character
+   51 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:57:13: warning: missing terminating ' character
+   57 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:63:13: warning: missing terminating ' character
+   63 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:69:13: warning: missing terminating ' character
+   69 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:75:13: warning: missing terminating ' character
+   75 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:81:13: warning: missing terminating ' character
+   81 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:87:13: warning: missing terminating ' character
+   87 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:93:13: warning: missing terminating ' character
+   93 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu:99:13: warning: missing terminating ' character
+   99 | But the user's answer should be a single line of valid .cu source code.
+      |             ^
+/tmp/tmpy78xzud5/program_42.cu(1): error: expected a declaration
+
+/tmp/tmpy78xzud5/program_42.cu(3): warning #2506-D: a user-provided literal suffix must begin with "_"
+
+/tmp/tmpy78xzud5/program_42.cu(5): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(9): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(15): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(21): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(27): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(33): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(39): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(45): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(51): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(57): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(63): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(69): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(75): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(81): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(87): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(93): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_42.cu(99): error: missing closing quote
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+18 errors detected in the compilation of "/tmp/tmpy78xzud5/program_42.cu".
+
+ Compilation failed for: s257598444.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_43.cu:8:9: warning: missing terminating ' character
+    8 | The user's question is to translate the C++ code into valid CUDA C. The user has provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided the C++ code and the CUDA code, and wants the translation. The user has already provided
+      |         ^
+/tmp/tmpy78xzud5/program_43.cu(8): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_43.cu(8): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_43.cu(8): error: expected a ";"
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_43.cu".
+
+ Compilation failed for: s888812298.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_44.cu:82:38: warning: missing terminating " character
+   82 |                         cout << i << "
+      |                                      ^
+/tmp/tmpy78xzud5/program_44.cu(40): error: identifier "cout" is undefined
+
+/tmp/tmpy78xzud5/program_44.cu(74): error: variable "MOD" has already been defined
+
+/tmp/tmpy78xzud5/program_44.cu(75): error: variable "PI" has already been defined
+
+/tmp/tmpy78xzud5/program_44.cu(79): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_44.cu(82): error: identifier "cout" is undefined
+
+/tmp/tmpy78xzud5/program_44.cu(82): error: missing closing quote
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+At end of source: error: expected a "}"
+
+At end of source: error: expected a "}"
+
+10 errors detected in the compilation of "/tmp/tmpy78xzud5/program_44.cu".
+
+ Compilation failed for: s551494920.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_45.cu(2): error: expected an identifier
+
+/tmp/tmpy78xzud5/program_45.cu(4): error: function returning function is not allowed
+
+/tmp/tmpy78xzud5/program_45.cu(3): error: attributes are not permitted in a function definition
+
+/tmp/tmpy78xzud5/program_45.cu(2): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_45.cu(86): error: expected a "{"
+
+At end of source: error: expected a "}"
+
+6 errors detected in the compilation of "/tmp/tmpy78xzud5/program_45.cu".
+
+ Compilation failed for: s426660993.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_46.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_46.cu(2): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_46.cu(2): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_46.cu(2): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_46.cu(2): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_46.cu(3): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_46.cu".
+
+ Compilation failed for: s431523275.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_47.cu:8:10: fatal error: cuda_runtime: No such file or directory
+    8 | #include <cuda_runtime>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+
+ Compilation failed for: s053700290.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_48.cu(20): error: a __global__ function call must be configured
+
+/tmp/tmpy78xzud5/program_48.cu(30): error: function "multiply" has already been defined
+
+/tmp/tmpy78xzud5/program_48.cu(38): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_48.cu(47): error: a __global__ function call must be configured
+
+/tmp/tmpy78xzud5/program_48.cu(57): error: function "multiply" has already been defined
+
+/tmp/tmpy78xzud5/program_48.cu(65): error: function "main" has already been defined
+
+At end of source: error: expected a "("
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a ")"
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+14 errors detected in the compilation of "/tmp/tmpy78xzud5/program_48.cu".
+
+ Compilation failed for: s905536541.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+ Compilation failed for: s238017467.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_50.cu(21): error: identifier "vector" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(21): error: type name is not allowed
+
+/tmp/tmpy78xzud5/program_50.cu(21): error: identifier "x" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(22): error: type name is not allowed
+
+/tmp/tmpy78xzud5/program_50.cu(22): error: identifier "y" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(23): error: type name is not allowed
+
+/tmp/tmpy78xzud5/program_50.cu(23): error: identifier "z" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(29): error: identifier "x_ptr" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(30): error: identifier "y_ptr" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(31): error: identifier "z_ptr" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(46): error: function "kernel" has already been defined
+
+/tmp/tmpy78xzud5/program_50.cu(57): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_50.cu(59): error: identifier "vector" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(59): error: type name is not allowed
+
+/tmp/tmpy78xzud5/program_50.cu(59): error: identifier "x" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(60): error: type name is not allowed
+
+/tmp/tmpy78xzud5/program_50.cu(60): error: identifier "y" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(61): error: type name is not allowed
+
+/tmp/tmpy78xzud5/program_50.cu(61): error: identifier "z" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(67): error: identifier "x_ptr" is undefined
+
+/tmp/tmpy78xzud5/program_50.cu(68): error: identifier "y_ptr" is undefined
+
+At end of source: error: expected a ")"
+
+At end of source: error: too few arguments in function call
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+25 errors detected in the compilation of "/tmp/tmpy78xzud5/program_50.cu".
+
+ Compilation failed for: s661908863.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_51.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_51.cu(2): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_51.cu(2): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_51.cu(2): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_51.cu(2): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_51.cu(3): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_51.cu".
+
+ Compilation failed for: s256150330.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_52.cu:102:11: error: missing terminating > character
+  102 | #include <
+      |           ^
+/tmp/tmpy78xzud5/program_52.cu:102:10: error: empty filename in #include
+  102 | #include <
+      |          ^
+
+ Compilation failed for: s190257463.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_53.cu(17): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_53.cu(32): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpy78xzud5/program_53.cu(13): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(14): warning #177-D: variable "hx" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(14): warning #177-D: variable "hy" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(14): warning #177-D: variable "dx" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(14): warning #177-D: variable "dy" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(15): warning #177-D: variable "cx" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(15): warning #177-D: variable "cy" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(37): error: function "init" has already been defined
+
+/tmp/tmpy78xzud5/program_53.cu(46): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_53.cu(51): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpy78xzud5/program_53.cu(47): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(48): warning #177-D: variable "hx" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(48): warning #177-D: variable "hy" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(48): warning #177-D: variable "dx" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(48): warning #177-D: variable "dy" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(49): warning #177-D: variable "cx" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_53.cu(49): warning #177-D: variable "cy" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_53.cu".
+
+ Compilation failed for: s569215912.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_54.cu(2): warning #550-D: parameter "c" was set but never used
+
+/tmp/tmpy78xzud5/program_54.cu(21): error: a __global__ function call must be configured
+
+/tmp/tmpy78xzud5/program_54.cu(26): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_54.cu(26): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_54.cu".
+
+ Compilation failed for: s628366103.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_55.cu(2): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_55.cu(2): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_55.cu(27): error: "i" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(28): error: "j" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(29): error: "k" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(31): error: "m" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(32): error: "n" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(34): error: "p" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(35): error: "q" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(36): error: "r" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(37): error: "s" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(38): error: "t" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(39): error: "u" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(40): error: "v" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(41): error: "w" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(42): error: "x" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(43): error: "y" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(44): error: "z" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(45): error: "a" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(46): error: "b" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(47): error: "c" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(48): error: "d" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(49): error: "e" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(50): error: "f" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(51): error: "g" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(52): error: "h" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(53): error: "i" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(54): error: "j" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(55): error: "k" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(56): error: "l" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(57): error: "m" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(58): error: "n" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(59): error: "o" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(60): error: "p" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(61): error: "q" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(62): error: "r" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(63): error: "s" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(64): error: "t" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(65): error: "u" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(66): error: "v" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(67): error: "w" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(68): error: "x" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(69): error: "y" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(70): error: "z" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(71): error: "a" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(72): error: "b" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_55.cu(73): error: "c" has already been declared in the current scope
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a ";"
+
+/tmp/tmpy78xzud5/program_55.cu(3): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(4): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(5): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(6): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(7): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(8): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(9): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(10): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(11): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(12): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(13): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(14): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(15): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(16): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(17): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(18): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(19): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(20): warning #177-D: variable "b" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(21): warning #177-D: variable "c" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(22): warning #177-D: variable "d" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(23): warning #177-D: variable "e" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(24): warning #177-D: variable "f" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(25): warning #177-D: variable "g" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(26): warning #177-D: variable "h" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(27): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(28): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(29): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(30): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(31): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(32): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(33): warning #177-D: variable "o" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(34): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(35): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(36): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(37): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(38): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(39): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(40): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(41): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(42): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(43): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(44): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(45): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(46): warning #177-D: variable "b" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(47): warning #177-D: variable "c" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(48): warning #177-D: variable "d" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(49): warning #177-D: variable "e" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(50): warning #177-D: variable "f" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(51): warning #177-D: variable "g" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(52): warning #177-D: variable "h" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(53): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(54): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(55): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(56): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(57): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(58): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(59): warning #177-D: variable "o" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(60): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(61): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(62): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(63): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(64): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(65): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(66): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(67): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(68): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(69): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(70): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(71): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_55.cu(72): warning #177-D: variable "b" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+49 errors detected in the compilation of "/tmp/tmpy78xzud5/program_55.cu".
+
+ Compilation failed for: s875249005.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_56.cu(18): error: function "loop" has already been defined
+
+/tmp/tmpy78xzud5/program_56.cu(34): error: function "loop" has already been defined
+
+/tmp/tmpy78xzud5/program_56.cu(50): error: function "loop" has already been defined
+
+/tmp/tmpy78xzud5/program_56.cu(66): error: function "loop" has already been defined
+
+/tmp/tmpy78xzud5/program_56.cu(82): error: function "loop" has already been defined
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+/tmp/tmpy78xzud5/program_56.cu(82): warning #550-D: parameter "z" was set but never used
+
+At end of source: error: expected a "}"
+
+9 errors detected in the compilation of "/tmp/tmpy78xzud5/program_56.cu".
+
+ Compilation failed for: s794311726.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_57.cu(1): error: duplicate parameter name
+
+Error limit reached.
+100 errors detected in the compilation of "/tmp/tmpy78xzud5/program_57.cu".
+Compilation terminated.
+
+ Compilation failed for: s612266738.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_58.cu(2): error: expected an identifier
+
+/tmp/tmpy78xzud5/program_58.cu(4): error: function returning function is not allowed
+
+/tmp/tmpy78xzud5/program_58.cu(3): error: attributes are not permitted in a function definition
+
+/tmp/tmpy78xzud5/program_58.cu(2): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_58.cu(86): error: expected a "{"
+
+At end of source: error: expected a "}"
+
+6 errors detected in the compilation of "/tmp/tmpy78xzud5/program_58.cu".
+
+ Compilation failed for: s626601565.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_59.cu(2): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_59.cu(2): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_59.cu(15): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_59.cu(15): error: expected a ";"
+
+4 errors detected in the compilation of "/tmp/tmpy78xzud5/program_59.cu".
+
+ Compilation failed for: s398125733.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_60.cu(2): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_60.cu(2): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_60.cu(10): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_60.cu(10): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_60.cu(10): error: "#" not expected here
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_60.cu".
+
+ Compilation failed for: s165301314.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_61.cu:118:17: error: missing terminating > character
+  118 | #include <vector
+      |                 ^
+
+ Compilation failed for: s328804177.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_62.cu(2): error: expected an identifier
+
+/tmp/tmpy78xzud5/program_62.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_62.cu(3): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+2 errors detected in the compilation of "/tmp/tmpy78xzud5/program_62.cu".
+
+ Compilation failed for: s213469359.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_63.cu(3): error: duplicate parameter name
+
+Error limit reached.
+100 errors detected in the compilation of "/tmp/tmpy78xzud5/program_63.cu".
+Compilation terminated.
+
+ Compilation failed for: s951111145.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_64.cu:17:9: warning: missing terminating ' character
+   17 | The user's code is:
+      |         ^
+/tmp/tmpy78xzud5/program_64.cu:49:9: warning: missing terminating ' character
+   49 | The user's code is:
+      |         ^
+/tmp/tmpy78xzud5/program_64.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_64.cu(2): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_64.cu(2): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_64.cu(2): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_64.cu(2): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_64.cu(3): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_64.cu(12): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpy78xzud5/program_64.cu(13): error: expected a declaration
+
+/tmp/tmpy78xzud5/program_64.cu(17): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_64.cu(44): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpy78xzud5/program_64.cu(45): error: expected a declaration
+
+/tmp/tmpy78xzud5/program_64.cu(49): error: missing closing quote
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+9 errors detected in the compilation of "/tmp/tmpy78xzud5/program_64.cu".
+
+ Compilation failed for: s240550287.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_65.cu(2): error: expected an identifier
+
+/tmp/tmpy78xzud5/program_65.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_65.cu(3): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+2 errors detected in the compilation of "/tmp/tmpy78xzud5/program_65.cu".
+
+ Compilation failed for: s937249506.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_66.cu:121:9: error: #include expects "FILENAME" or <FILENAME>
+  121 | #include
+      |         ^
+
+ Compilation failed for: s338200435.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_67.cu:53:12: warning: missing terminating " character
+   53 |     printf("%dx
+      |            ^
+/tmp/tmpy78xzud5/program_67.cu(18): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_67.cu(18): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_67.cu(53): error: missing closing quote
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_67.cu".
+
+ Compilation failed for: s282788996.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_68.cu(2): error: duplicate parameter name
+
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_68.cu".
+
+ Compilation failed for: s717539641.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_69.cu:124:17: error: missing terminating > character
+  124 | #include <time.h
+      |                 ^
+
+ Compilation failed for: s249615667.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_70.cu(2): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_70.cu(2): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_70.cu(11): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_70.cu(11): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_70.cu".
+
+ Compilation failed for: s221393841.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_71.cu(8): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_71.cu(8): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_71.cu(35): error: "i" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(36): error: "j" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(37): error: "k" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(38): error: "l" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(39): error: "m" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(40): error: "n" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(41): error: "p" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(42): error: "q" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(43): error: "r" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(44): error: "s" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(45): error: "t" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(46): error: "u" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(47): error: "v" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(48): error: "w" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(49): error: "x" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(50): error: "y" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(51): error: "z" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(52): error: "a" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(53): error: "b" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(54): error: "c" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(55): error: "d" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(56): error: "e" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(57): error: "f" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(58): error: "g" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(59): error: "h" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(60): error: "i" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(61): error: "j" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(62): error: "k" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(63): error: "l" has already been declared in the current scope
+
+/tmp/tmpy78xzud5/program_71.cu(64): error: identifier "__int32" is undefined
+
+At end of source: error: expected a ";"
+
+/tmp/tmpy78xzud5/program_71.cu(10): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(11): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(12): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(13): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(14): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(15): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(16): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(17): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(18): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(19): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(20): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(21): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(22): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(23): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(24): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(25): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(26): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(27): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(28): warning #177-D: variable "b" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(29): warning #177-D: variable "c" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(30): warning #177-D: variable "d" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(31): warning #177-D: variable "e" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(32): warning #177-D: variable "f" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(33): warning #177-D: variable "g" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(34): warning #177-D: variable "h" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(35): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(36): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(37): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(38): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(39): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(40): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(41): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(42): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(43): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(44): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(45): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(46): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(47): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(48): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(49): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(50): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(51): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(52): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(53): warning #177-D: variable "b" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(54): warning #177-D: variable "c" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(55): warning #177-D: variable "d" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(56): warning #177-D: variable "e" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(57): warning #177-D: variable "f" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(58): warning #177-D: variable "g" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(59): warning #177-D: variable "h" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(60): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(61): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(62): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_71.cu(63): warning #177-D: variable "l" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+34 errors detected in the compilation of "/tmp/tmpy78xzud5/program_71.cu".
+
+ Compilation failed for: s988050612.cpp
+---- Compile stderr ----
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+2 errors detected in the compilation of "/tmp/tmpy78xzud5/program_72.cu".
+
+ Compilation failed for: s123348533.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_73.cu:2:10: fatal error: cudalloc.h: No such file or directory
+    2 | #include <cudalloc.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ Compilation failed for: s228833727.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_74.cu:14:9: warning: missing terminating ' character
+   14 | The user's code is:
+      |         ^
+/tmp/tmpy78xzud5/program_74.cu:29:9: warning: missing terminating ' character
+   29 | The user's code is:
+      |         ^
+/tmp/tmpy78xzud5/program_74.cu:44:9: warning: missing terminating ' character
+   44 | The user's code is:
+      |         ^
+/tmp/tmpy78xzud5/program_74.cu:59:9: warning: missing terminating ' character
+   59 | The user's code is:
+      |         ^
+/tmp/tmpy78xzud5/program_74.cu:74:9: warning: missing terminating ' character
+   74 | The user's code is:
+      |         ^
+/tmp/tmpy78xzud5/program_74.cu:89:9: warning: missing terminating ' character
+   89 | The user's code is:
+      |         ^
+/tmp/tmpy78xzud5/program_74.cu(3): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_74.cu(3): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_74.cu(11): error: return value type does not match the function type
+
+/tmp/tmpy78xzud5/program_74.cu(14): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_74.cu(14): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_74.cu(14): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_74.cu(29): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_74.cu(44): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_74.cu(59): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_74.cu(74): error: missing closing quote
+
+/tmp/tmpy78xzud5/program_74.cu(89): error: missing closing quote
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+10 errors detected in the compilation of "/tmp/tmpy78xzud5/program_74.cu".
+
+ Compilation failed for: s543370529.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_75.cu:128:14: error: missing terminating > character
+  128 | #include <map
+      |              ^
+
+ Compilation failed for: s903336455.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__global_int" is undefined
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: identifier "__" is undefined
+
+At end of source: error: expected a ")"
+
+/tmp/tmpy78xzud5/program_76.cu(3): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_76.cu(3): error: function main cannot be marked __device__ or __global__
+
+At end of source: error: expected a ";"
+
+91 errors detected in the compilation of "/tmp/tmpy78xzud5/program_76.cu".
+
+ Compilation failed for: s411434399.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_77.cu(2): error: expected an identifier
+
+/tmp/tmpy78xzud5/program_77.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_77.cu(3): error: expected an expression
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+At end of source: error: expected a "}"
+
+At end of source: error: expected a ";"
+
+4 errors detected in the compilation of "/tmp/tmpy78xzud5/program_77.cu".
+
+ Compilation failed for: s091076962.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_78.cu:120:9: error: #include expects "FILENAME" or <FILENAME>
+  120 | #include
+      |         ^
+
+ Compilation failed for: s543240305.cpp
+---- Compile stderr ----
+At end of source: error: expected a "("
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a ")"
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+6 errors detected in the compilation of "/tmp/tmpy78xzud5/program_79.cu".
+
+ Compilation failed for: s575031691.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_80.cu(3): error: duplicate parameter name
+
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_80.cu".
+
+ Compilation failed for: s586870490.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_81.cu:128:11: error: missing terminating > character
+  128 | #include <
+      |           ^
+/tmp/tmpy78xzud5/program_81.cu:128:10: error: empty filename in #include
+  128 | #include <
+      |          ^
+
+ Compilation failed for: s927176431.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_82.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_82.cu(3): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_82.cu(3): error: identifier "__int8" is undefined
+
+/tmp/tmpy78xzud5/program_82.cu(3): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_82.cu(3): error: type name is not allowed
+
+/tmp/tmpy78xzud5/program_82.cu(3): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_82.cu(4): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_82.cu(34): warning #12-D: parsing restarts here after previous syntax error
+
+At end of source: error: expected an expression
+
+At end of source: error: expected a ";"
+
+8 errors detected in the compilation of "/tmp/tmpy78xzud5/program_82.cu".
+
+ Compilation failed for: s286542218.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_83.cu(2): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(2): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_83.cu(8): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(8): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(14): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(14): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(20): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(20): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(26): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(26): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(32): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(32): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(38): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(38): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(44): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(44): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(50): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(50): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(56): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(56): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(62): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(62): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(68): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(68): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(74): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(74): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(80): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_83.cu(80): error: function "main" has already been defined
+
+/tmp/tmpy78xzud5/program_83.cu(82): warning #174-D: expression has no effect
+
+At end of source: error: expected a ";"
+
+/tmp/tmpy78xzud5/program_83.cu(81): warning #177-D: variable "x" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+16 errors detected in the compilation of "/tmp/tmpy78xzud5/program_83.cu".
+
+ Compilation failed for: s062717346.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_84.cu(1): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmpy78xzud5/program_84.cu(1): error: function main cannot be marked __device__ or __global__
+
+At end of source: error: expected an identifier
+
+At end of source: error: expected a ";"
+
+/tmp/tmpy78xzud5/program_84.cu(3): warning #177-D: variable "i" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(4): warning #177-D: variable "j" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(5): warning #177-D: variable "k" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(6): warning #177-D: variable "l" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(7): warning #177-D: variable "m" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(8): warning #177-D: variable "n" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(9): warning #177-D: variable "p" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(10): warning #177-D: variable "q" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(11): warning #177-D: variable "r" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(12): warning #177-D: variable "s" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(13): warning #177-D: variable "t" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(14): warning #177-D: variable "u" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(15): warning #177-D: variable "v" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(16): warning #177-D: variable "w" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(17): warning #177-D: variable "x" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(18): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(19): warning #177-D: variable "z" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(20): warning #177-D: variable "a1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(21): warning #177-D: variable "b1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(22): warning #177-D: variable "c1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(23): warning #177-D: variable "d1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(24): warning #177-D: variable "e1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(25): warning #177-D: variable "f1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(26): warning #177-D: variable "g1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(27): warning #177-D: variable "h1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(28): warning #177-D: variable "i1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(29): warning #177-D: variable "j1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(30): warning #177-D: variable "k1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(31): warning #177-D: variable "l1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(32): warning #177-D: variable "m1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(33): warning #177-D: variable "n1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(34): warning #177-D: variable "o1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(35): warning #177-D: variable "p1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(36): warning #177-D: variable "q1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(37): warning #177-D: variable "r1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(38): warning #177-D: variable "s1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(39): warning #177-D: variable "t1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(40): warning #177-D: variable "u1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(41): warning #177-D: variable "v1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(42): warning #177-D: variable "w1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(43): warning #177-D: variable "x1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(44): warning #177-D: variable "y1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(45): warning #177-D: variable "z1" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(46): warning #177-D: variable "a2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(47): warning #177-D: variable "b2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(48): warning #177-D: variable "c2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(49): warning #177-D: variable "d2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(50): warning #177-D: variable "e2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(51): warning #177-D: variable "f2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(52): warning #177-D: variable "g2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(53): warning #177-D: variable "h2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(54): warning #177-D: variable "i2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(55): warning #177-D: variable "j2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(56): warning #177-D: variable "k2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(57): warning #177-D: variable "l2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(58): warning #177-D: variable "m2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(59): warning #177-D: variable "n2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(60): warning #177-D: variable "o2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(61): warning #177-D: variable "p2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(62): warning #177-D: variable "q2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(63): warning #177-D: variable "r2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(64): warning #177-D: variable "s2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(65): warning #177-D: variable "t2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(66): warning #177-D: variable "u2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(67): warning #177-D: variable "v2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(68): warning #177-D: variable "w2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(69): warning #177-D: variable "x2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(70): warning #177-D: variable "y2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(71): warning #177-D: variable "z2" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(72): warning #177-D: variable "a3" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(73): warning #177-D: variable "b3" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(74): warning #177-D: variable "c3" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_84.cu(75): warning #177-D: variable "d3" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+4 errors detected in the compilation of "/tmp/tmpy78xzud5/program_84.cu".
+
+ Compilation failed for: s246086916.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_85.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_85.cu(3): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_85.cu(3): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_85.cu(3): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_85.cu(3): error: expected a ")"
+
+At end of source: error: expected a ";"
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_85.cu".
+
+ Compilation failed for: s141683029.cpp
+---- Compile stderr ----
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+2 errors detected in the compilation of "/tmp/tmpy78xzud5/program_86.cu".
+
+ Compilation failed for: s175922402.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_87.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_87.cu(2): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_87.cu(2): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_87.cu(2): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_87.cu(2): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_87.cu(2): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_87.cu(23): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpy78xzud5/program_87.cu(24): error: identifier "x6" is undefined
+
+/tmp/tmpy78xzud5/program_87.cu(25): error: identifier "y6" is undefined
+
+/tmp/tmpy78xzud5/program_87.cu(26): error: identifier "z6" is undefined
+
+/tmp/tmpy78xzud5/program_87.cu(42): error: identifier "x" is undefined
+
+At end of source: error: expected a ";"
+
+10 errors detected in the compilation of "/tmp/tmpy78xzud5/program_87.cu".
+
+ Compilation failed for: s206446078.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_88.cu(2): error: expected an identifier
+
+/tmp/tmpy78xzud5/program_88.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_88.cu(3): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_88.cu(24): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpy78xzud5/program_88.cu(25): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(25): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(25): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(25): error: identifier "x" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(26): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(26): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(26): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(26): error: identifier "y" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(27): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(27): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(27): error: declaration is incompatible with structured binding "i"
+(25): here
+
+/tmp/tmpy78xzud5/program_88.cu(27): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(27): error: identifier "z" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(28): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(28): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(28): error: declaration is incompatible with structured binding "j"
+(26): here
+
+/tmp/tmpy78xzud5/program_88.cu(28): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(29): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(29): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(29): error: declaration is incompatible with structured binding "i"
+(27): here
+
+/tmp/tmpy78xzud5/program_88.cu(29): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(30): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(30): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(30): error: declaration is incompatible with structured binding "j"
+(28): here
+
+/tmp/tmpy78xzud5/program_88.cu(30): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(31): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(31): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(31): error: declaration is incompatible with structured binding "i"
+(29): here
+
+/tmp/tmpy78xzud5/program_88.cu(31): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(32): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(32): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(32): error: declaration is incompatible with structured binding "j"
+(30): here
+
+/tmp/tmpy78xzud5/program_88.cu(32): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(33): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(33): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(33): error: declaration is incompatible with structured binding "i"
+(31): here
+
+/tmp/tmpy78xzud5/program_88.cu(33): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(34): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(34): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(34): error: declaration is incompatible with structured binding "j"
+(32): here
+
+/tmp/tmpy78xzud5/program_88.cu(34): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(35): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(35): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(35): error: declaration is incompatible with structured binding "i"
+(33): here
+
+/tmp/tmpy78xzud5/program_88.cu(35): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(36): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(36): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(36): error: declaration is incompatible with structured binding "j"
+(34): here
+
+/tmp/tmpy78xzud5/program_88.cu(36): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(37): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(37): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(37): error: declaration is incompatible with structured binding "i"
+(35): here
+
+/tmp/tmpy78xzud5/program_88.cu(37): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(38): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(38): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(38): error: declaration is incompatible with structured binding "j"
+(36): here
+
+/tmp/tmpy78xzud5/program_88.cu(38): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(39): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(39): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(39): error: declaration is incompatible with structured binding "i"
+(37): here
+
+/tmp/tmpy78xzud5/program_88.cu(39): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(40): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(40): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(40): error: declaration is incompatible with structured binding "j"
+(38): here
+
+/tmp/tmpy78xzud5/program_88.cu(40): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(41): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(41): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(41): error: declaration is incompatible with structured binding "i"
+(39): here
+
+/tmp/tmpy78xzud5/program_88.cu(41): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(42): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(42): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(42): error: declaration is incompatible with structured binding "j"
+(40): here
+
+/tmp/tmpy78xzud5/program_88.cu(42): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(43): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(43): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(43): error: declaration is incompatible with structured binding "i"
+(41): here
+
+/tmp/tmpy78xzud5/program_88.cu(43): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(44): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(44): error: invalid specifier for structured binding declaration
+
+/tmp/tmpy78xzud5/program_88.cu(44): error: declaration is incompatible with structured binding "j"
+(42): here
+
+/tmp/tmpy78xzud5/program_88.cu(44): error: expected a "]"
+
+/tmp/tmpy78xzud5/program_88.cu(45): error: identifier "ptr" is undefined
+
+/tmp/tmpy78xzud5/program_88.cu(45): error: invalid specifier for structured binding declaration
+
+At end of source: error: missing initializer
+
+/tmp/tmpy78xzud5/program_88.cu(45): error: declaration is incompatible with structured binding "i"
+(43): here
+
+/tmp/tmpy78xzud5/program_88.cu(45): error: expected a "]"
+
+At end of source: error: expected a ";"
+
+89 errors detected in the compilation of "/tmp/tmpy78xzud5/program_88.cu".
+
+ Compilation failed for: s554646187.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_89.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_89.cu(3): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_89.cu(3): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_89.cu(3): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_89.cu(3): error: expected a ")"
+
+/tmp/tmpy78xzud5/program_89.cu(3): error: expected a ";"
+
+/tmp/tmpy78xzud5/program_89.cu(24): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpy78xzud5/program_89.cu(25): error: expected a declaration
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+6 errors detected in the compilation of "/tmp/tmpy78xzud5/program_89.cu".
+
+ Compilation failed for: s314591893.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_90.cu(2): error: expected an identifier
+
+/tmp/tmpy78xzud5/program_90.cu(4): error: function returning function is not allowed
+
+/tmp/tmpy78xzud5/program_90.cu(3): error: attributes are not permitted in a function definition
+
+/tmp/tmpy78xzud5/program_90.cu(2): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_90.cu(86): error: expected a "{"
+
+At end of source: error: expected a "}"
+
+6 errors detected in the compilation of "/tmp/tmpy78xzud5/program_90.cu".
+
+ Compilation failed for: s443556594.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_91.cu(1): error: expected a declaration
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+1 error detected in the compilation of "/tmp/tmpy78xzud5/program_91.cu".
+
+ Compilation failed for: s572992090.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_92.cu:122:9: error: #include expects "FILENAME" or <FILENAME>
+  122 | #include
+      |         ^
+
+ Compilation failed for: s657640944.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_93.cu:2:10: fatal error: cudalloc.h: No such file or directory
+    2 | #include <cudalloc.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+ Compilation failed for: s426473168.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_94.cu(5): error: a __global__ function must have a void return type
+
+/tmp/tmpy78xzud5/program_94.cu(5): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmpy78xzud5/program_94.cu(10): warning #177-D: variable "idx" was declared but never referenced
+
+/tmp/tmpy78xzud5/program_94.cu(15): error: identifier "The" is undefined
+
+/tmp/tmpy78xzud5/program_94.cu(15): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+4 errors detected in the compilation of "/tmp/tmpy78xzud5/program_94.cu".
+
+ Compilation failed for: s234575938.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_95.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_95.cu(2): error: "main" cannot be used as a global variable name or given C language linkage
+
+/tmp/tmpy78xzud5/program_95.cu(2): error: incomplete type is not allowed
+
+/tmp/tmpy78xzud5/program_95.cu(2): error: identifier "__global" is undefined
+
+/tmp/tmpy78xzud5/program_95.cu(2): error: expected a ")"
+
+At end of source: error: expected a ";"
+
+5 errors detected in the compilation of "/tmp/tmpy78xzud5/program_95.cu".
+
+ Compilation failed for: s046074811.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_96.cu:128:14: error: missing terminating > character
+  128 | #include <map
+      |              ^
+
+ Compilation failed for: s923640603.cpp
+---- Compile stderr ----
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+2 errors detected in the compilation of "/tmp/tmpy78xzud5/program_97.cu".
+
+ Compilation failed for: s748067012.cpp
+---- Compile stderr ----
+/usr/include/c++/11/bits/std_function.h:435:145: error: parameter packs not expanded with ‘...’:
+  435 |         function(_Functor&& __f)
+      |                                                                                                                                                 ^ 
+/usr/include/c++/11/bits/std_function.h:435:145: note:         ‘_ArgTypes’
+/usr/include/c++/11/bits/std_function.h:530:146: error: parameter packs not expanded with ‘...’:
+  530 |         operator=(_Functor&& __f)
+      |                                                                                                                                                  ^ 
+/usr/include/c++/11/bits/std_function.h:530:146: note:         ‘_ArgTypes’
+
+ Compilation failed for: s224013242.cpp
+---- Compile stderr ----
+/tmp/tmpy78xzud5/program_99.cu(2): error: expected an identifier
+
+/tmp/tmpy78xzud5/program_99.cu(2): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpy78xzud5/program_99.cu(3): error: expected an expression
+
+/tmp/tmpy78xzud5/program_99.cu(8): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpy78xzud5/program_99.cu(11): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+3 errors detected in the compilation of "/tmp/tmpy78xzud5/program_99.cu".
+

@@ -37,9 +37,13 @@ def load_cpp_files(folder_path, max_files=NUM_MAX_FILES):
                 break
     return code_examples
 
-# ----- 3. CREATE PROMPT AND TRANSLATE -----
+# ----- CREATE PROMPT AND TRANSLATE -----
 def create_translation_prompt(c_code):
-    return f"""Translate the following C++ code into CUDA:\n\n```c++\n{c_code}\n```\n\nTranslated CUDA code:"""
+    return (
+        "Translate the following C++ code to valid CUDA C. "
+        "Return only valid .cu source code without markdown formatting, backticks, or explanation.\n\n"
+        f"{c_code}\n\nCUDA code:"
+    )
 
 def translate_c_to_cuda(c_code, tokenizer, model, max_tokens=512):
     prompt = create_translation_prompt(c_code)
@@ -57,7 +61,7 @@ def translate_c_to_cuda(c_code, tokenizer, model, max_tokens=512):
     full_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return full_output[len(prompt):].strip()
 
-# ----- 4. FILE I/O AND COMPILATION -----
+# ----- FILE I/O AND COMPILATION -----
 def write_cuda_file(code: str, file_id: int, dir_path: str):
     filename = os.path.join(dir_path, f"program_{file_id}.cu")
     with open(filename, "w") as f:
@@ -109,7 +113,6 @@ def run_executable(exe_path: str):
             "run_success": False
         }
 
-# ----- 5. PIPELINE FOR EACH EXAMPLE -----
 def process_example(args):
     ex, idx, dir_path = args
     code = ex["translated_code"]
@@ -131,7 +134,6 @@ def process_example(args):
 
     return result
 
-# ----- 6. MAIN DRIVER -----
 if __name__ == "__main__":
     folder = "/home/hungphd/Son/weakLLM_cuda_examples/Project_CodeNet_C++1000/p00000" 
 
@@ -157,8 +159,21 @@ if __name__ == "__main__":
         with Pool(processes=max(1, cpu_count() - 1)) as pool:
             final_results = pool.map(process_example, args)
 
-    print("💾 Saving output...")
+    print("Saving output...")
     with open("final_cuda_pipeline_results.json", "w") as f:
         json.dump(final_results, f, indent=2)
 
-    print("✅ Pipeline complete! Output saved to 'final_cuda_pipeline_results.json'")
+    error_report_path = "compile_and_run_errors.txt"
+    with open(error_report_path, "w") as f:
+        for result in final_results:
+            if not result.get("compile_success", True):
+                f.write(f"❌ Compilation failed for: {result['id']}\n")
+                f.write("---- Compile stderr ----\n")
+                f.write(result["compile_stderr"] + "\n\n")
+            elif not result.get("run_success", True):
+                f.write(f"🛑 Execution failed for: {result['id']}\n")
+                f.write("---- Run stderr ----\n")
+                f.write(result["run_stderr"] + "\n\n")
+
+    print(f"📝 Error report saved to '{error_report_path}'")
+    print("Pipeline complete! Output saved to 'final_cuda_pipeline_results.json'")
