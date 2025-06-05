@@ -3,6 +3,7 @@ padding_char
 
 # Ignore all files without extension (common for executables)
 *
+Project_CodeNet_C++1000/
 
 # But allow source files and scripts
 !*.cu
