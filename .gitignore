@@ -215,3 +215,4 @@ cuda_examples/test
 weakLLM_cuda_examples/Project_CodeNet_C++1000.tar.gz
 cuda_examples/fullprogram_example6
 
+weakLLM_cuda_examples/DeepSeekR1/*
