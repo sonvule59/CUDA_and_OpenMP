@@ -1,0 +1,398 @@
+❌ Compilation failed for: s008585512.cpp
+---- Compile stderr ----
+/usr/include/c++/11/bits/std_function.h:435:145: error: parameter packs not expanded with ‘...’:
+  435 |         function(_Functor&& __f)
+      |                                                                                                                                                 ^ 
+/usr/include/c++/11/bits/std_function.h:435:145: note:         ‘_ArgTypes’
+/usr/include/c++/11/bits/std_function.h:530:146: error: parameter packs not expanded with ‘...’:
+  530 |         operator=(_Functor&& __f)
+      |                                                                                                                                                  ^ 
+/usr/include/c++/11/bits/std_function.h:530:146: note:         ‘_ArgTypes’
+
+❌ Compilation failed for: s014423648.cpp
+---- Compile stderr ----
+At end of source: error: expected an expression
+
+At end of source: error: expected a ")"
+
+At end of source: error: too few arguments in function call
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+5 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_6.cu".
+
+❌ Compilation failed for: s027024029.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_12.cu(20): error: identifier "i" is undefined
+
+/tmp/tmpd9n9oeu2/program_12.cu(20): error: identifier "REP" is undefined
+
+/tmp/tmpd9n9oeu2/program_12.cu(20): error: expected a ";"
+
+/tmp/tmpd9n9oeu2/program_12.cu(24): warning #12-D: parsing restarts here after previous syntax error
+
+3 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_12.cu".
+
+❌ Compilation failed for: s035670593.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_15.cu(12): warning #20096-D: address of a host variable "std::cout" cannot be directly taken in a device function
+
+/tmp/tmpd9n9oeu2/program_15.cu(12): error: calling a __host__ function("std::basic_ostream<char, std::char_traits<char> >::operator <<(::std::basic_ostream<char, std::char_traits<char> >&(*)(::std::basic_ostream<char, std::char_traits<char> >&))") from a __global__ function("print_table") is not allowed
+
+/tmp/tmpd9n9oeu2/program_15.cu(12): error: identifier "std::basic_ostream<char, std::char_traits<char> >::operator <<" is undefined in device code
+
+/tmp/tmpd9n9oeu2/program_15.cu(12): error: calling a __host__ function("std::basic_ostream<T1, T2>  &  ::std::operator <<<char,     ::std::char_traits<char> , ::std::allocator<char> > (    ::std::basic_ostream<T1, T2>  &, const    ::std::__cxx11::basic_string<T1, T2, T3>  &)") from a __global__ function("print_table") is not allowed
+
+/tmp/tmpd9n9oeu2/program_15.cu(12): error: identifier "std::operator <<<char,     ::std::char_traits<char> , ::std::allocator<char> > " is undefined in device code
+
+/tmp/tmpd9n9oeu2/program_15.cu(12): error: identifier "std::cout" is undefined in device code
+
+/tmp/tmpd9n9oeu2/program_15.cu(12): error: identifier "std::endl<char,     ::std::char_traits<char> > " is undefined in device code
+
+6 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_15.cu".
+
+❌ Compilation failed for: s046074811.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_19.cu(3): warning #177-D: variable "MOD" was declared but never referenced
+
+/tmp/tmpd9n9oeu2/program_19.cu(4): warning #177-D: variable "PI" was declared but never referenced
+
+/usr/include/c++/11/bits/std_function.h:435:145: error: parameter packs not expanded with ‘...’:
+  435 |         function(_Functor&& __f)
+      |                                                                                                                                                 ^ 
+/usr/include/c++/11/bits/std_function.h:435:145: note:         ‘_ArgTypes’
+/usr/include/c++/11/bits/std_function.h:530:146: error: parameter packs not expanded with ‘...’:
+  530 |         operator=(_Functor&& __f)
+      |                                                                                                                                                  ^ 
+/usr/include/c++/11/bits/std_function.h:530:146: note:         ‘_ArgTypes’
+
+❌ Compilation failed for: s052518178.cpp
+---- Compile stderr ----
+/usr/include/c++/11/bits/std_function.h:435:145: error: parameter packs not expanded with ‘...’:
+  435 |         function(_Functor&& __f)
+      |                                                                                                                                                 ^ 
+/usr/include/c++/11/bits/std_function.h:435:145: note:         ‘_ArgTypes’
+/usr/include/c++/11/bits/std_function.h:530:146: error: parameter packs not expanded with ‘...’:
+  530 |         operator=(_Functor&& __f)
+      |                                                                                                                                                  ^ 
+/usr/include/c++/11/bits/std_function.h:530:146: note:         ‘_ArgTypes’
+
+❌ Compilation failed for: s057270885.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_26.cu(6): error: a __global__ function call must be configured
+
+/tmp/tmpd9n9oeu2/program_26.cu(11): error: a __global__ function call must be configured
+
+/tmp/tmpd9n9oeu2/program_26.cu(12): error: a __global__ function call must be configured
+
+3 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_26.cu".
+
+❌ Compilation failed for: s066437530.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_28.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmpd9n9oeu2/program_28.cu(3): error: incomplete type is not allowed
+
+/tmp/tmpd9n9oeu2/program_28.cu(3): error: identifier "uint8_t" is undefined
+
+/tmp/tmpd9n9oeu2/program_28.cu(3): error: identifier "a" is undefined
+
+/tmp/tmpd9n9oeu2/program_28.cu(3): error: identifier "b" is undefined
+
+/tmp/tmpd9n9oeu2/program_28.cu(3): error: identifier "c" is undefined
+
+/tmp/tmpd9n9oeu2/program_28.cu(3): error: type name is not allowed
+
+/tmp/tmpd9n9oeu2/program_28.cu(3): error: expected a ")"
+
+/tmp/tmpd9n9oeu2/program_28.cu(4): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+8 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_28.cu".
+
+❌ Compilation failed for: s067647311.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_29.cu(18): error: too few arguments in function call
+
+/tmp/tmpd9n9oeu2/program_29.cu(20): error: no operator "<" matches these operands
+            operand types are: std::_Rb_tree_const_iterator<std::string> < std::_Rb_tree_const_iterator<std::string>
+
+2 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_29.cu".
+
+🛑 Execution failed for: s082628758.cpp
+---- Run stderr ----
+Timeout
+
+❌ Compilation failed for: s083067007.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_40.cu(10): warning #20096-D: address of a host variable "std::cout" cannot be directly taken in a device function
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: calling a __host__ function("std::basic_ostream<char, std::char_traits<char> >::operator <<(::std::basic_ostream<char, std::char_traits<char> >&(*)(::std::basic_ostream<char, std::char_traits<char> >&))") from a __global__ function("print_table") is not allowed
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: identifier "std::basic_ostream<char, std::char_traits<char> >::operator <<" is undefined in device code
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: calling a __host__ function("std::basic_ostream<char, std::char_traits<char> >::operator <<(int)") from a __global__ function("print_table") is not allowed
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: identifier "std::basic_ostream<char, std::char_traits<char> >::operator <<" is undefined in device code
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: calling a __host__ function("std::basic_ostream<char, T1>  &  ::std::operator <<<    ::std::char_traits<char> > (    ::std::basic_ostream<char, T1>  &, const char *)") from a __global__ function("print_table") is not allowed
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: identifier "std::operator <<<    ::std::char_traits<char> > " is undefined in device code
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: calling a __host__ function("std::basic_ostream<char, std::char_traits<char> >::operator <<(int)") from a __global__ function("print_table") is not allowed
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: identifier "std::basic_ostream<char, std::char_traits<char> >::operator <<" is undefined in device code
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: calling a __host__ function("std::basic_ostream<char, T1>  &  ::std::operator <<<    ::std::char_traits<char> > (    ::std::basic_ostream<char, T1>  &, const char *)") from a __global__ function("print_table") is not allowed
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: identifier "std::operator <<<    ::std::char_traits<char> > " is undefined in device code
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: calling a __host__ function("std::basic_ostream<char, std::char_traits<char> >::operator <<(int)") from a __global__ function("print_table") is not allowed
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: identifier "std::basic_ostream<char, std::char_traits<char> >::operator <<" is undefined in device code
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: identifier "std::cout" is undefined in device code
+
+/tmp/tmpd9n9oeu2/program_40.cu(10): error: identifier "std::endl<char,     ::std::char_traits<char> > " is undefined in device code
+
+14 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_40.cu".
+
+🛑 Execution failed for: s086704516.cpp
+---- Run stderr ----
+
+
+❌ Compilation failed for: s088221797.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_43.cu(16): warning #549-D: variable "n1" is used before its value is set
+
+/tmp/tmpd9n9oeu2/program_43.cu(17): warning #549-D: variable "n2" is used before its value is set
+
+/tmp/tmpd9n9oeu2/program_43.cu(21): error: identifier "a_host" is undefined
+
+/tmp/tmpd9n9oeu2/program_43.cu(22): error: identifier "b_host" is undefined
+
+/tmp/tmpd9n9oeu2/program_43.cu(28): error: identifier "c_host" is undefined
+
+3 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_43.cu".
+
+🛑 Execution failed for: s091076962.cpp
+---- Run stderr ----
+
+
+❌ Compilation failed for: s091446993.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_45.cu(20): error: no suitable conversion function from "std::vector<int, std::allocator<int>>" to "int *" exists
+
+1 error detected in the compilation of "/tmp/tmpd9n9oeu2/program_45.cu".
+
+❌ Compilation failed for: s092574612.cpp
+---- Compile stderr ----
+/usr/include/c++/11/bits/std_function.h:435:145: error: parameter packs not expanded with ‘...’:
+  435 |         function(_Functor&& __f)
+      |                                                                                                                                                 ^ 
+/usr/include/c++/11/bits/std_function.h:435:145: note:         ‘_ArgTypes’
+/usr/include/c++/11/bits/std_function.h:530:146: error: parameter packs not expanded with ‘...’:
+  530 |         operator=(_Functor&& __f)
+      |                                                                                                                                                  ^ 
+/usr/include/c++/11/bits/std_function.h:530:146: note:         ‘_ArgTypes’
+
+❌ Compilation failed for: s097371956.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_48.cu(4): error: expected a ")"
+
+/tmp/tmpd9n9oeu2/program_48.cu(14): error: expected an identifier
+
+2 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_48.cu".
+
+❌ Compilation failed for: s107919637.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_53.cu(41): error: identifier "d" is undefined
+
+At end of source: error: expected a ")"
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+4 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_53.cu".
+
+❌ Compilation failed for: s108801591.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_55.cu(5): error: identifier "printf" is undefined
+
+1 error detected in the compilation of "/tmp/tmpd9n9oeu2/program_55.cu".
+
+❌ Compilation failed for: s115719540.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_60.cu(15): error: identifier "i" is undefined
+
+/tmp/tmpd9n9oeu2/program_60.cu(15): error: identifier "REP" is undefined
+
+/tmp/tmpd9n9oeu2/program_60.cu(15): error: expected a ";"
+
+/tmp/tmpd9n9oeu2/program_60.cu(20): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpd9n9oeu2/program_60.cu(22): error: expected a ";"
+
+/tmp/tmpd9n9oeu2/program_60.cu(26): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmpd9n9oeu2/program_60.cu(10): warning #550-D: variable "a" was set but never used
+
+4 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_60.cu".
+
+❌ Compilation failed for: s115986407.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_61.cu(25): error: argument of type "int (*)[9]" is incompatible with parameter of type "int *"
+
+/tmp/tmpd9n9oeu2/program_61.cu(25): error: argument of type "int (*)[9]" is incompatible with parameter of type "int *"
+
+/tmp/tmpd9n9oeu2/program_61.cu(25): error: argument of type "int (*)[9]" is incompatible with parameter of type "int *"
+
+3 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_61.cu".
+
+🛑 Execution failed for: s118075557.cpp
+---- Run stderr ----
+
+
+❌ Compilation failed for: s123093127.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_65.cu(20): warning #177-D: variable "EPS" was declared but never referenced
+
+/usr/include/c++/11/bits/std_function.h:435:145: error: parameter packs not expanded with ‘...’:
+  435 |         function(_Functor&& __f)
+      |                                                                                                                                                 ^ 
+/usr/include/c++/11/bits/std_function.h:435:145: note:         ‘_ArgTypes’
+/usr/include/c++/11/bits/std_function.h:530:146: error: parameter packs not expanded with ‘...’:
+  530 |         operator=(_Functor&& __f)
+      |                                                                                                                                                  ^ 
+/usr/include/c++/11/bits/std_function.h:530:146: note:         ‘_ArgTypes’
+
+❌ Compilation failed for: s123348533.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_66.cu(16): warning #177-D: variable "INF" was declared but never referenced
+
+/tmp/tmpd9n9oeu2/program_66.cu(17): warning #177-D: variable "EPS" was declared but never referenced
+
+/usr/include/c++/11/bits/std_function.h:435:145: error: parameter packs not expanded with ‘...’:
+  435 |         function(_Functor&& __f)
+      |                                                                                                                                                 ^ 
+/usr/include/c++/11/bits/std_function.h:435:145: note:         ‘_ArgTypes’
+/usr/include/c++/11/bits/std_function.h:530:146: error: parameter packs not expanded with ‘...’:
+  530 |         operator=(_Functor&& __f)
+      |                                                                                                                                                  ^ 
+/usr/include/c++/11/bits/std_function.h:530:146: note:         ‘_ArgTypes’
+
+❌ Compilation failed for: s132087713.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_69.cu(4): error: expression must have arithmetic or unscoped enum type
+
+/tmp/tmpd9n9oeu2/program_69.cu(4): error: expression must have arithmetic or unscoped enum type
+
+/tmp/tmpd9n9oeu2/program_69.cu(4): error: expression must have integral or unscoped enum type
+
+/tmp/tmpd9n9oeu2/program_69.cu(4): error: operand types are incompatible ("int *" and "int")
+
+4 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_69.cu".
+
+❌ Compilation failed for: s135376322.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_71.cu(20): error: argument of type "int (*)[10]" is incompatible with parameter of type "int *"
+
+/tmp/tmpd9n9oeu2/program_71.cu(20): error: argument of type "int (*)[10]" is incompatible with parameter of type "int *"
+
+2 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_71.cu".
+
+❌ Compilation failed for: s141854533.cpp
+---- Compile stderr ----
+At end of source: error: expected a "]"
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+At end of source: error: expected a "}"
+
+4 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_76.cu".
+
+❌ Compilation failed for: s145254814.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_79.cu(24): error: argument of type "int (*)[10]" is incompatible with parameter of type "int *"
+
+/tmp/tmpd9n9oeu2/program_79.cu(24): error: argument of type "int (*)[10]" is incompatible with parameter of type "int *"
+
+/tmp/tmpd9n9oeu2/program_79.cu(24): error: argument of type "int (*)[10]" is incompatible with parameter of type "int *"
+
+3 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_79.cu".
+
+❌ Compilation failed for: s150314734.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_81.cu(39): warning #177-D: variable "idx" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+/tmp/tmpd9n9oeu2/program_81.cu(24): warning #177-D: variable "PI" was declared but never referenced
+
+/tmp/tmpd9n9oeu2/program_81.cu(25): warning #177-D: variable "LARGE_INT" was declared but never referenced
+
+1 error detected in the compilation of "/tmp/tmpd9n9oeu2/program_81.cu".
+
+❌ Compilation failed for: s154326116.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_83.cu(7): error: a __global__ function call must be configured
+
+/tmp/tmpd9n9oeu2/program_83.cu(9): error: a __global__ function call must be configured
+
+2 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_83.cu".
+
+❌ Compilation failed for: s159208709.cpp
+---- Compile stderr ----
+At end of source: error: expected a "]"
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+At end of source: error: expected a "}"
+
+4 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_87.cu".
+
+❌ Compilation failed for: s160759013.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_90.cu:43:9: error: #include expects "FILENAME" or <FILENAME>
+   43 | #include
+      |         ^
+
+❌ Compilation failed for: s165301314.cpp
+---- Compile stderr ----
+/usr/include/c++/11/bits/std_function.h:435:145: error: parameter packs not expanded with ‘...’:
+  435 |         function(_Functor&& __f)
+      |                                                                                                                                                 ^ 
+/usr/include/c++/11/bits/std_function.h:435:145: note:         ‘_ArgTypes’
+/usr/include/c++/11/bits/std_function.h:530:146: error: parameter packs not expanded with ‘...’:
+  530 |         operator=(_Functor&& __f)
+      |                                                                                                                                                  ^ 
+/usr/include/c++/11/bits/std_function.h:530:146: note:         ‘_ArgTypes’
+
+❌ Compilation failed for: s166989015.cpp
+---- Compile stderr ----
+/tmp/tmpd9n9oeu2/program_94.cu(12): error: pair is not a template
+
+/tmp/tmpd9n9oeu2/program_94.cu(13): error: vector is not a template
+
+/tmp/tmpd9n9oeu2/program_94.cu(14): error: vector is not a template
+
+/tmp/tmpd9n9oeu2/program_94.cu(16): error: identifier "string" is undefined
+
+/tmp/tmpd9n9oeu2/program_94.cu(18): error: identifier "string" is undefined
+
+/tmp/tmpd9n9oeu2/program_94.cu(22): error: identifier "string" is undefined
+
+/tmp/tmpd9n9oeu2/program_94.cu(35): error: name followed by "::" must be a class or namespace name
+
+/tmp/tmpd9n9oeu2/program_94.cu(35): error: identifier "cin" is undefined
+
+8 errors detected in the compilation of "/tmp/tmpd9n9oeu2/program_94.cu".
+

@@ -1,0 +1,5 @@
+#include <stdio.h>
+#define FOR(i, a, b) for(int i = (a); i < (b); i++)
+#define REP(i, n) for(int i = 0; i < (n); i++)
+
+__global__ void main(__global__ int *ptr, int *ptr2, int *ptr3, int *ptr4, int *ptr5, int *ptr6, int *ptr7, int *ptr8, int *ptr9, int *ptr10, int *ptr11, int *ptr12, int *ptr13, int *ptr14, int *ptr15, int *ptr16, int *ptr17, int *ptr18, int *ptr19, int *ptr20, int *ptr21, int *ptr22, int *ptr23, int *ptr24, int *ptr25, int *ptr26, int *ptr27, int *ptr28, int *ptr29, int *ptr30, int *ptr31, int *ptr32, int *ptr33, int *ptr34, int *ptr35, int *ptr36, int *ptr37, int *ptr38, int *ptr39, int *ptr40, int *ptr41, int *ptr42, int *ptr43, int *ptr44, int *ptr45, int *ptr46, int *ptr47, int *ptr48, int *ptr49, int *ptr50, int *ptr51, int *ptr52, int *ptr53, int *ptr54, int *ptr55, int *ptr56, int *ptr57, int *ptr58, int *ptr59, int *ptr60, int *ptr61, int *ptr62, int *ptr63, int *ptr64, int *ptr65, int *ptr66, int *ptr67, int *ptr68, int *ptr69, int *ptr70, int *ptr71, int *ptr72, int *ptr73, int *ptr74, int *ptr75, int *ptr76, int *ptr77, int *ptr

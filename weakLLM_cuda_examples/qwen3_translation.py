@@ -3,11 +3,11 @@ import json
 import tempfile
 import subprocess
 from multiprocessing import Pool, cpu_count
-
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
+import re
 
-# ----- 1. LOAD QWEN MODEL -----
+# ----- LOAD QWEN MODEL -----
 def load_qwen_model(model_path="Qwen/Qwen3-0.6B"):
     tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
@@ -19,11 +19,10 @@ def load_qwen_model(model_path="Qwen/Qwen3-0.6B"):
     return tokenizer, model
 
 NUM_MAX_FILES = 100
-# ----- 2. LOAD ALL .cpp/.c FILES FROM A FOLDER -----
-def load_cpp_files(folder_path, max_files=NUM_MAX_FILES):  
+def load_cpp_files(folder_path, max_files=NUM_MAX_FILES):
     code_examples = []
     count = 0
-    for filename in os.listdir(folder_path):
+    for filename in sorted(os.listdir(folder_path)):
         if filename.endswith(".cpp") or filename.endswith(".c"):
             full_path = os.path.join(folder_path, filename)
             with open(full_path, "r") as f:
@@ -37,16 +36,21 @@ def load_cpp_files(folder_path, max_files=NUM_MAX_FILES):
                 break
     return code_examples
 
-# ----- CREATE PROMPT AND TRANSLATE -----
-def create_translation_prompt(c_code):
+def clean_translated_code(raw_output):
+    blocks = re.findall(r"```[a-zA-Z0-9]*\n(.*?)```", raw_output, re.DOTALL)
+    if blocks:
+        return blocks[0].strip()
+    return raw_output.replace("```", "").strip()
+
+def create_translation_prompt_qwen(c_code):
     return (
-        "Translate the following C++ code to valid CUDA C. "
-        "Return only valid .cu source code without markdown formatting, backticks, or explanation.\n\n"
+        "You are and expert in code translation from C++ to CUDA. Translate the following C++ code to valid CUDA. "
+        "Return tran without markdown formatting, backticks, or explanation.\n\n"
         f"{c_code}\n\nCUDA code:"
     )
 
-def translate_c_to_cuda(c_code, tokenizer, model, max_tokens=512):
-    prompt = create_translation_prompt(c_code)
+def translate_c_to_cuda_qwen(c_code, tokenizer, model, max_tokens=512):
+    prompt = create_translation_prompt_qwen(c_code)
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
     outputs = model.generate(
@@ -59,14 +63,21 @@ def translate_c_to_cuda(c_code, tokenizer, model, max_tokens=512):
     )
 
     full_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    return full_output[len(prompt):].strip()
+    return clean_translated_code(full_output[len(prompt):].strip())
 
-# ----- FILE I/O AND COMPILATION -----
 def write_cuda_file(code: str, file_id: int, dir_path: str):
     filename = os.path.join(dir_path, f"program_{file_id}.cu")
     with open(filename, "w") as f:
         f.write(code)
     return filename
+
+def save_translated_cuda_files(examples, output_dir="Qwen3"):
+    os.makedirs(output_dir, exist_ok=True)
+    for ex in examples:
+        safe_id = os.path.splitext(ex["id"])[0]  # Remove .cpp/.c extension
+        filename = os.path.join(output_dir, f"{safe_id}.cu")
+        with open(filename, "w") as f:
+            f.write(ex["translated_code"])
 
 def compile_cuda_file(cuda_file_path: str):
     exe_path = cuda_file_path.replace(".cu", "")
@@ -117,7 +128,11 @@ def process_example(args):
     ex, idx, dir_path = args
     code = ex["translated_code"]
     cuda_path = write_cuda_file(code, idx, dir_path)
-    result = {"id": ex["id"], "original_c": ex["c_code"], "translated_code": code}
+    result = {
+        "id": ex["id"],
+        "original_c": ex["c_code"],
+        "translated_code": code
+    }
 
     compile_result = compile_cuda_file(cuda_path)
     result.update(compile_result)
@@ -135,36 +150,38 @@ def process_example(args):
     return result
 
 if __name__ == "__main__":
-    folder = "/home/hungphd/Son/weakLLM_cuda_examples/Project_CodeNet_C++1000/p00000" 
-
-    print(f"Loading C++ files from '{folder}'...")
+    folder = "/home/hungphd/Son/weakLLM_cuda_examples/Project_CodeNet_C++1000/p00000"
+    print(f"📂 Loading C/C++ files from: {folder}")
     c_examples = load_cpp_files(folder, max_files= NUM_MAX_FILES)
 
-    print("Loading Qwen model...")
+    print("🚀 Loading Qwen3-0.9B-Chat...")
     tokenizer, model = load_qwen_model()
 
-    print("🔁 Translating C++ to CUDA...")
+    print("🔁 Translating C++ code to CUDA...")
     translated_examples = []
     for ex in c_examples:
-        cuda_code = translate_c_to_cuda(ex["c_code"], tokenizer, model)
+        cuda_code = translate_c_to_cuda_qwen(ex["c_code"], tokenizer, model)
         translated_examples.append({
             "id": ex["id"],
             "c_code": ex["c_code"],
             "translated_code": cuda_code
         })
-
-    print("⚙️  Compiling and running all CUDA programs...")
+    print("📝 Saving translated CUDA files to folder 'Qwen3'...")
+    save_translated_cuda_files(translated_examples, output_dir="Qwen3")
+    print("⚙️  Compiling and executing CUDA code...")
     with tempfile.TemporaryDirectory() as tmpdir:
         args = [(ex, i, tmpdir) for i, ex in enumerate(translated_examples)]
         with Pool(processes=max(1, cpu_count() - 1)) as pool:
             final_results = pool.map(process_example, args)
 
-    print("Saving output...")
-    with open("final_cuda_pipeline_results.json", "w") as f:
+    json_file = "final_cuda_pipeline_results.json"
+    print(f"💾 Saving output to {json_file}")
+    with open(json_file, "w") as f:
         json.dump(final_results, f, indent=2)
 
-    error_report_path = "compile_and_run_errors.txt"
-    with open(error_report_path, "w") as f:
+    # Save error report
+    error_report = "qwen3_compile_and_run_errors.txt"
+    with open(error_report, "w") as f:
         for result in final_results:
             if not result.get("compile_success", True):
                 f.write(f"❌ Compilation failed for: {result['id']}\n")
@@ -175,5 +192,5 @@ if __name__ == "__main__":
                 f.write("---- Run stderr ----\n")
                 f.write(result["run_stderr"] + "\n\n")
 
-    print(f"📝 Error report saved to '{error_report_path}'")
-    print("Pipeline complete! Output saved to 'final_cuda_pipeline_results.json'")
+    print(f"📝 Errors saved to '{error_report}'")
+    print("✅ Done.")

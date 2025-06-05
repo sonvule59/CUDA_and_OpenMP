@@ -1,0 +1,2267 @@
+❌ Compilation failed for: s001607624.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_0.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmptuozaiyf/program_0.cu(3): error: incomplete type is not allowed
+
+/tmp/tmptuozaiyf/program_0.cu(3): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+2 errors detected in the compilation of "/tmp/tmptuozaiyf/program_0.cu".
+
+❌ Compilation failed for: s003971419.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s008310714.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_2.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_2.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_2.cu(29): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_2.cu(31): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_2.cu(36): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_2.cu(38): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_2.cu(39): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_2.cu(40): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_2.cu(42): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_2.cu(43): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_2.cu(70): error: initializer not allowed for __shared__ variable 
+
+/tmp/tmptuozaiyf/program_2.cu(70): warning #177-D: variable "sharedSum" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+10 errors detected in the compilation of "/tmp/tmptuozaiyf/program_2.cu".
+
+❌ Compilation failed for: s008456021.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_3.cu(10): error: initialization with "{...}" expected for aggregate object
+
+/tmp/tmptuozaiyf/program_3.cu(3): warning #177-D: variable "local_i" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_3.cu(4): warning #177-D: variable "local_j" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_3.cu(7): warning #177-D: variable "a" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_3.cu(21): warning #177-D: variable "result" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_3.cu(35): error: identifier "blockDimX" is undefined
+
+/tmp/tmptuozaiyf/program_3.cu(36): error: too few arguments in function call
+
+/tmp/tmptuozaiyf/program_3.cu(43): error: identifier "blockDimX" is undefined
+
+/tmp/tmptuozaiyf/program_3.cu(44): error: expression must be a pointer to a complete object type
+
+/tmp/tmptuozaiyf/program_3.cu(49): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_3.cu(49): error: identifier "endl" is undefined
+
+7 errors detected in the compilation of "/tmp/tmptuozaiyf/program_3.cu".
+
+❌ Compilation failed for: s008585512.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_4.cu(36): error: a __global__ function call must be configured
+
+/tmp/tmptuozaiyf/program_4.cu(41): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_4.cu(43): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_4.cu(43): error: identifier "endl" is undefined
+
+4 errors detected in the compilation of "/tmp/tmptuozaiyf/program_4.cu".
+
+❌ Compilation failed for: s012378771.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_5.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_5.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_5.cu(21): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_5.cu(22): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_5.cu(22): error: declaration is incompatible with "cudaError_t cudaFree(void *)"
+/usr/include/cuda_runtime_api.h(4927): here
+
+/tmp/tmptuozaiyf/program_5.cu(22): error: identifier "dy" is undefined
+
+/tmp/tmptuozaiyf/program_5.cu(24): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_5.cu(24): error: declaration is incompatible with "int printf(const char *, ...)"
+/usr/include/crt/common_functions.h(153): here
+
+/tmp/tmptuozaiyf/program_5.cu(24): error: identifier "x" is undefined
+
+/tmp/tmptuozaiyf/program_5.cu(24): error: identifier "y" is undefined
+
+/tmp/tmptuozaiyf/program_5.cu(24): error: identifier "product" is undefined
+
+/tmp/tmptuozaiyf/program_5.cu(24): error: too many initializer values
+
+/tmp/tmptuozaiyf/program_5.cu(24): error: a value of type "const char *" cannot be used to initialize an entity of type "int"
+
+/tmp/tmptuozaiyf/program_5.cu(25): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_5.cu(45): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(45): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(45): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(45): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(45): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(45): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(45): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(45): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(47): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(47): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(47): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(47): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(49): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(51): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(51): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(51): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(51): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(51): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(51): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(51): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(51): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(51): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(53): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(53): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(53): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(53): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(53): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(53): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_5.cu(53): error: unrecognized token
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+55 errors detected in the compilation of "/tmp/tmptuozaiyf/program_5.cu".
+
+❌ Compilation failed for: s014423648.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_6.cu(3): warning #177-D: variable "thread_id" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_6.cu(37): error: argument of type "int *" is incompatible with parameter of type "int"
+
+/tmp/tmptuozaiyf/program_6.cu(44): error: identifier "i" is undefined
+
+/tmp/tmptuozaiyf/program_6.cu(44): error: identifier "FOR" is undefined
+
+/tmp/tmptuozaiyf/program_6.cu(44): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_6.cu(50): warning #12-D: parsing restarts here after previous syntax error
+
+4 errors detected in the compilation of "/tmp/tmptuozaiyf/program_6.cu".
+
+❌ Compilation failed for: s016418112.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_7.cu:34:122: warning: missing terminating ' character
+   34 | - Inside the kernel function, we use the `threadIdx.x + blockIdx.x * blockDim.x` indexing to determine the current thread's location within the grid and the block size.
+      |                                                                                                                          ^
+/tmp/tmptuozaiyf/program_7.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_7.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_7.cu(27): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_7.cu(28): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_7.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(33): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(34): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(34): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(34): error: missing closing quote
+
+/tmp/tmptuozaiyf/program_7.cu(35): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(35): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(35): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(35): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(35): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(35): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(35): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(35): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(35): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(35): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(36): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(36): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(36): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(36): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(37): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(37): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(37): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(37): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(37): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(37): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(38): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(38): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(38): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(38): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(39): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(39): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(39): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(39): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(39): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(39): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_7.cu(39): error: unrecognized token
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+59 errors detected in the compilation of "/tmp/tmptuozaiyf/program_7.cu".
+
+❌ Compilation failed for: s017262325.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_8.cu(8): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_8.cu(8): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_8.cu(8): error: expression must have pointer-to-object type but it has type "int"
+
+3 errors detected in the compilation of "/tmp/tmptuozaiyf/program_8.cu".
+
+❌ Compilation failed for: s018321295.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_9.cu(3): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(4): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(7): error: a value of type "int" cannot be used to initialize an entity of type "int *"
+
+/tmp/tmptuozaiyf/program_9.cu(10): error: a value of type "int" cannot be used to initialize an entity of type "int *"
+
+/tmp/tmptuozaiyf/program_9.cu(13): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(14): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(15): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(16): error: "shift_y" has already been declared in the current scope
+
+/tmp/tmptuozaiyf/program_9.cu(16): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(17): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(20): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(20): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(21): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(21): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(22): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(22): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_9.cu(29): error: identifier "shared_ptr" is undefined
+
+/tmp/tmptuozaiyf/program_9.cu(29): error: type name is not allowed
+
+/tmp/tmptuozaiyf/program_9.cu(29): error: expected an expression
+
+/tmp/tmptuozaiyf/program_9.cu(29): error: expression must have pointer-to-class type but it has type "int *"
+
+/tmp/tmptuozaiyf/program_9.cu(29): error: identifier "translated_code_global" is undefined
+
+/tmp/tmptuozaiyf/program_9.cu(30): error: expression must have pointer-to-class type but it has type "int *"
+
+22 errors detected in the compilation of "/tmp/tmptuozaiyf/program_9.cu".
+
+❌ Compilation failed for: s020914857.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_10.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_10.cu(4): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_10.cu(26): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_10.cu(27): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_10.cu(52): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_10.cu(57): error: identifier "row" is undefined
+
+/tmp/tmptuozaiyf/program_10.cu(57): error: identifier "m" is undefined
+
+/tmp/tmptuozaiyf/program_10.cu(57): error: identifier "n" is undefined
+
+/tmp/tmptuozaiyf/program_10.cu(57): error: identifier "element" is undefined
+
+/tmp/tmptuozaiyf/program_10.cu(60): error: expected a declaration
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+8 errors detected in the compilation of "/tmp/tmptuozaiyf/program_10.cu".
+
+❌ Compilation failed for: s022378867.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_11.cu(9): error: identifier "globalStorage" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_11.cu".
+
+❌ Compilation failed for: s027024029.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_12.cu:4:10: fatal error: cuda_runtime_gemm.h: No such file or directory
+    4 | #include <cuda_runtime_gemm.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+
+❌ Compilation failed for: s030392173.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_13.cu(11): error: identifier "global_matrix" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_13.cu".
+
+❌ Compilation failed for: s032277705.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_14.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_14.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_14.cu(32): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_14.cu(33): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_14.cu(40): error: identifier "dimGrid" is undefined
+
+/tmp/tmptuozaiyf/program_14.cu(45): error: identifier "seki" is undefined
+
+/tmp/tmptuozaiyf/program_14.cu(55): error: identifier "shared_seki" is undefined
+
+At end of source: error: expected a "}"
+
+7 errors detected in the compilation of "/tmp/tmptuozaiyf/program_14.cu".
+
+❌ Compilation failed for: s035670593.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_15.cu:4:10: fatal error: cuda_runtime_gemm.h: No such file or directory
+    4 | #include <cuda_runtime_gemm.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+
+❌ Compilation failed for: s037667835.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_16.cu(10): error: identifier "gl_FragColor" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_16.cu".
+
+❌ Compilation failed for: s041829482.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s045491847.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_18.cu(45): error: identifier "grid_size" is undefined
+
+/tmp/tmptuozaiyf/program_18.cu(45): error: identifier "block_size" is undefined
+
+/tmp/tmptuozaiyf/program_18.cu(47): error: namespace "std" has no member "cout"
+
+/tmp/tmptuozaiyf/program_18.cu(47): error: namespace "std" has no member "endl"
+
+4 errors detected in the compilation of "/tmp/tmptuozaiyf/program_18.cu".
+
+❌ Compilation failed for: s046074811.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_19.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_19.cu(5): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+2 errors detected in the compilation of "/tmp/tmptuozaiyf/program_19.cu".
+
+❌ Compilation failed for: s048969575.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_20.cu(1): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmptuozaiyf/program_20.cu(1): error: incomplete type is not allowed
+
+/tmp/tmptuozaiyf/program_20.cu(1): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+2 errors detected in the compilation of "/tmp/tmptuozaiyf/program_20.cu".
+
+❌ Compilation failed for: s052518178.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_21.cu(1): error: identifier "xpu_t" is undefined
+
+/tmp/tmptuozaiyf/program_21.cu(1): error: identifier "ypu_t" is undefined
+
+/tmp/tmptuozaiyf/program_21.cu(15): error: identifier "xpu_t" is undefined
+
+/tmp/tmptuozaiyf/program_21.cu(20): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_21.cu(20): error: identifier "endl" is undefined
+
+5 errors detected in the compilation of "/tmp/tmptuozaiyf/program_21.cu".
+
+❌ Compilation failed for: s052964803.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_22.cu(11): error: calling a __host__ function("fopen") from a __global__ function("print_i32") is not allowed
+
+/tmp/tmptuozaiyf/program_22.cu(11): error: identifier "fopen" is undefined in device code
+
+/tmp/tmptuozaiyf/program_22.cu(12): error: calling a __host__ function("fprintf") from a __global__ function("print_i32") is not allowed
+
+/tmp/tmptuozaiyf/program_22.cu(12): error: identifier "fprintf" is undefined in device code
+
+/tmp/tmptuozaiyf/program_22.cu(13): error: calling a __host__ function("fclose") from a __global__ function("print_i32") is not allowed
+
+/tmp/tmptuozaiyf/program_22.cu(13): error: identifier "fclose" is undefined in device code
+
+6 errors detected in the compilation of "/tmp/tmptuozaiyf/program_22.cu".
+
+❌ Compilation failed for: s053700290.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s054008728.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_24.cu(16): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_24.cu(17): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_24.cu(13): warning #177-D: variable "result" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_24.cu(37): error: expression must be a pointer to a complete object type
+
+/tmp/tmptuozaiyf/program_24.cu(38): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_24.cu(38): error: identifier "endl" is undefined
+
+5 errors detected in the compilation of "/tmp/tmptuozaiyf/program_24.cu".
+
+❌ Compilation failed for: s055966910.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_25.cu(5): error: expression must have class type but it has type "int *"
+
+/tmp/tmptuozaiyf/program_25.cu(5): error: expression must have class type but it has type "int *"
+
+2 errors detected in the compilation of "/tmp/tmptuozaiyf/program_25.cu".
+
+❌ Compilation failed for: s057270885.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_26.cu(4): error: a __global__ function call must be configured
+
+/tmp/tmptuozaiyf/program_26.cu(9): error: a __global__ function call must be configured
+
+/tmp/tmptuozaiyf/program_26.cu(10): error: a __global__ function call must be configured
+
+/tmp/tmptuozaiyf/program_26.cu(14): error: a __global__ function call must be configured
+
+4 errors detected in the compilation of "/tmp/tmptuozaiyf/program_26.cu".
+
+❌ Compilation failed for: s062717346.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_27.cu(7): error: expression must have class type but it has type "int *"
+
+/tmp/tmptuozaiyf/program_27.cu(7): error: expression must have class type but it has type "int *"
+
+/tmp/tmptuozaiyf/program_27.cu(16): error: expression must have class type but it has type "int *"
+
+/tmp/tmptuozaiyf/program_27.cu(16): error: expression must have class type but it has type "int *"
+
+/tmp/tmptuozaiyf/program_27.cu(25): error: expression must have class type but it has type "int *"
+
+/tmp/tmptuozaiyf/program_27.cu(25): error: expression must have class type but it has type "int *"
+
+/tmp/tmptuozaiyf/program_27.cu(34): error: expression must have class type but it has type "int *"
+
+/tmp/tmptuozaiyf/program_27.cu(34): error: expression must have class type but it has type "int *"
+
+/tmp/tmptuozaiyf/program_27.cu(42): error: identifier "N" is undefined
+
+/tmp/tmptuozaiyf/program_27.cu(43): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_27.cu(44): error: identifier "numBlocks" is undefined
+
+/tmp/tmptuozaiyf/program_27.cu(69): error: identifier "__" is undefined
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+14 errors detected in the compilation of "/tmp/tmptuozaiyf/program_27.cu".
+
+❌ Compilation failed for: s066437530.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_28.cu(17): error: namespace "std" has no member "cout"
+
+/tmp/tmptuozaiyf/program_28.cu(3): warning #177-D: variable "thread_id" was declared but never referenced
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_28.cu".
+
+❌ Compilation failed for: s067647311.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_29.cu:3:10: fatal error: cuda_runtime_gemm.h: No such file or directory
+    3 | #include <cuda_runtime_gemm.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+
+❌ Compilation failed for: s068563260.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_30.cu(7): warning #550-D: variable "shared_result" was set but never used
+
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s068595017.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_31.cu(18): error: identifier "row" is undefined
+
+/tmp/tmptuozaiyf/program_31.cu(20): error: identifier "grid_size" is undefined
+
+/tmp/tmptuozaiyf/program_31.cu(20): error: identifier "block_size" is undefined
+
+/tmp/tmptuozaiyf/program_31.cu(14): warning #550-D: variable "grid" was set but never used
+
+3 errors detected in the compilation of "/tmp/tmptuozaiyf/program_31.cu".
+
+❌ Compilation failed for: s071872140.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_32.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_32.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(22): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(23): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(23): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(23): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(23): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(23): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(23): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(23): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(23): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(24): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(24): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(24): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(24): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(25): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(25): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(25): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(25): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(25): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(25): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(26): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_32.cu(30): error: unrecognized token
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+66 errors detected in the compilation of "/tmp/tmptuozaiyf/program_32.cu".
+
+❌ Compilation failed for: s073561711.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_33.cu(30): error: expression must have class type but it has type "void (*)(int, int)"
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_33.cu".
+
+❌ Compilation failed for: s073698841.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_34.cu(12): error: identifier "buffer" is undefined
+
+/tmp/tmptuozaiyf/program_34.cu(16): error: identifier "globalVariable" is undefined
+
+/tmp/tmptuozaiyf/program_34.cu(43): error: invalid type conversion
+
+/tmp/tmptuozaiyf/program_34.cu(49): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_34.cu(49): error: identifier "endl" is undefined
+
+5 errors detected in the compilation of "/tmp/tmptuozaiyf/program_34.cu".
+
+❌ Compilation failed for: s074268911.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_35.cu(4): error: expression must have arithmetic or unscoped enum type
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_35.cu".
+
+❌ Compilation failed for: s075045846.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_36.cu(3): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_36.cu(11): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_36.cu(12): error: expression must have class type but it has type "int"
+
+/tmp/tmptuozaiyf/program_36.cu(18): error: namespace "std" has no member "cout"
+
+4 errors detected in the compilation of "/tmp/tmptuozaiyf/program_36.cu".
+
+❌ Compilation failed for: s075296282.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_37.cu(36): error: a __global__ function call must be configured
+
+/tmp/tmptuozaiyf/program_37.cu(40): error: namespace "std" has no member "cout"
+
+/tmp/tmptuozaiyf/program_37.cu(40): error: namespace "std" has no member "endl"
+
+3 errors detected in the compilation of "/tmp/tmptuozaiyf/program_37.cu".
+
+❌ Compilation failed for: s076041968.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_38.cu(14): error: expression must have pointer-to-object type but it has type "int"
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_38.cu".
+
+❌ Compilation failed for: s082628758.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_39.cu(22): error: identifier "output" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_39.cu".
+
+❌ Compilation failed for: s083067007.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s086704516.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_41.cu(12): error: identifier "d8x" is undefined
+
+/tmp/tmptuozaiyf/program_41.cu(13): error: identifier "d8y" is undefined
+
+/tmp/tmptuozaiyf/program_41.cu(23): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_41.cu(24): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_41.cu(25): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_41.cu(33): error: identifier "i" is undefined
+
+/tmp/tmptuozaiyf/program_41.cu(33): error: identifier "rep" is undefined
+
+/tmp/tmptuozaiyf/program_41.cu(33): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_41.cu(38): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_41.cu(39): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_41.cu(40): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_41.cu(42): error: argument of type "int (*)[10]" is incompatible with parameter of type "int *"
+
+/tmp/tmptuozaiyf/program_41.cu(45): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_41.cu(50): warning #12-D: parsing restarts here after previous syntax error
+
+12 errors detected in the compilation of "/tmp/tmptuozaiyf/program_41.cu".
+
+❌ Compilation failed for: s087240108.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_42.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_42.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_42.cu(38): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_42.cu(39): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_42.cu(44): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_42.cu(47): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_42.cu(49): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_42.cu(50): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_42.cu(59): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_42.cu(59): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_42.cu(66): error: identifier "globalSum" is undefined
+
+/tmp/tmptuozaiyf/program_42.cu(69): error: identifier "globalAccumulatedSum" is undefined
+
+/tmp/tmptuozaiyf/program_42.cu(69): error: identifier "globalAccum" is undefined
+
+At end of source: error: expected a ";"
+
+At end of source: error: expected a "}"
+
+13 errors detected in the compilation of "/tmp/tmptuozaiyf/program_42.cu".
+
+❌ Compilation failed for: s088221797.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_43.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmptuozaiyf/program_43.cu(3): error: incomplete type is not allowed
+
+/tmp/tmptuozaiyf/program_43.cu(3): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_43.cu(40): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_43.cu(43): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_43.cu(43): error: declaration is incompatible with "cudaError_t cudaFree(void *)"
+/usr/include/cuda_runtime_api.h(4927): here
+
+/tmp/tmptuozaiyf/program_43.cu(43): error: identifier "A" is undefined
+
+/tmp/tmptuozaiyf/program_43.cu(44): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_43.cu(44): error: variable "cudaFree" has already been defined
+
+/tmp/tmptuozaiyf/program_43.cu(44): error: identifier "B" is undefined
+
+/tmp/tmptuozaiyf/program_43.cu(46): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_43.cu(47): error: expected a declaration
+
+10 errors detected in the compilation of "/tmp/tmptuozaiyf/program_43.cu".
+
+❌ Compilation failed for: s091076962.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_44.cu(13): error: identifier "host_memory" is undefined
+
+/tmp/tmptuozaiyf/program_44.cu(32): error: identifier "host_memory" is undefined
+
+/tmp/tmptuozaiyf/program_44.cu(39): error: identifier "cudaGetEvent" is undefined
+
+/tmp/tmptuozaiyf/program_44.cu(42): error: identifier "cudaEventIsSet" is undefined
+
+/tmp/tmptuozaiyf/program_44.cu(43): error: identifier "cudaSleep" is undefined
+
+5 errors detected in the compilation of "/tmp/tmptuozaiyf/program_44.cu".
+
+❌ Compilation failed for: s091446993.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_45.cu(16): error: identifier "N" is undefined
+
+/tmp/tmptuozaiyf/program_45.cu(17): error: identifier "VINT" is undefined
+
+/tmp/tmptuozaiyf/program_45.cu(29): warning #177-D: variable "blocks_per_grid" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_45.cu(32): warning #177-D: variable "device_size" was declared but never referenced
+
+2 errors detected in the compilation of "/tmp/tmptuozaiyf/program_45.cu".
+
+❌ Compilation failed for: s092574612.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_46.cu(17): error: identifier "printf" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_46.cu".
+
+❌ Compilation failed for: s096087960.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_47.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_47.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_47.cu(46): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_47.cu(47): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_47.cu(63): warning #549-D: variable "stream" is used before its value is set
+
+At end of source: error: expected a ";"
+
+/tmp/tmptuozaiyf/program_47.cu(73): warning #177-D: variable "hostSum" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+5 errors detected in the compilation of "/tmp/tmptuozaiyf/program_47.cu".
+
+❌ Compilation failed for: s097371956.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_48.cu(5): error: identifier "row" is undefined
+
+/tmp/tmptuozaiyf/program_48.cu(5): error: identifier "col" is undefined
+
+/tmp/tmptuozaiyf/program_48.cu(5): warning #225-D: the format string ends before this argument
+
+2 errors detected in the compilation of "/tmp/tmptuozaiyf/program_48.cu".
+
+❌ Compilation failed for: s097651031.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_49.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_49.cu(4): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+2 errors detected in the compilation of "/tmp/tmptuozaiyf/program_49.cu".
+
+❌ Compilation failed for: s100511807.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_50.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_50.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_50.cu(30): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_50.cu(33): error: identifier "shared_result" is undefined
+
+/tmp/tmptuozaiyf/program_50.cu(33): error: invalid specifier for structured binding declaration
+
+/tmp/tmptuozaiyf/program_50.cu(33): error: declaration is incompatible with "const uint3 threadIdx"
+/usr/include/device_launch_parameters.h(71): here
+
+/tmp/tmptuozaiyf/program_50.cu(33): error: expected a "]"
+
+/tmp/tmptuozaiyf/program_50.cu(33): error: identifier "result" is undefined
+
+/tmp/tmptuozaiyf/program_50.cu(33): error: a variable declared with an auto type specifier cannot appear in its own initializer
+
+/tmp/tmptuozaiyf/program_50.cu(34): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_50.cu(34): error: identifier "s" is undefined
+
+/tmp/tmptuozaiyf/program_50.cu(34): error: identifier "e" is undefined
+
+/tmp/tmptuozaiyf/program_50.cu(34): error: identifier "shared_result" is undefined
+
+/tmp/tmptuozaiyf/program_50.cu(34): error: too many initializer values
+
+/tmp/tmptuozaiyf/program_50.cu(35): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_50.cu(43): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_50.cu(44): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_50.cu(47): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_50.cu(50): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_50.cu(52): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_50.cu(53): error: expected a declaration
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+18 errors detected in the compilation of "/tmp/tmptuozaiyf/program_50.cu".
+
+❌ Compilation failed for: s100548990.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s106790035.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s107919637.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_53.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_53.cu(24): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_53.cu(25): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_53.cu(48): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_53.cu(51): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(51): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_53.cu(56): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(56): error: declaration is incompatible with overloaded function "cudaEventCreate"
+/usr/include/cuda_runtime_api.h(3077): here
+
+/tmp/tmptuozaiyf/program_53.cu(56): error: a value of type "cudaEvent_t *" cannot be used to initialize an entity of type "int"
+
+/tmp/tmptuozaiyf/program_53.cu(57): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(57): error: variable "cudaEventCreate" has already been defined
+
+/tmp/tmptuozaiyf/program_53.cu(57): error: a value of type "cudaEvent_t *" cannot be used to initialize an entity of type "int"
+
+/tmp/tmptuozaiyf/program_53.cu(58): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(58): error: declaration is incompatible with "cudaError_t cudaEventRecord(cudaEvent_t, cudaStream_t)"
+/usr/include/cuda_runtime_api.h(3154): here
+
+/tmp/tmptuozaiyf/program_53.cu(58): error: a value of type "cudaEvent_t" cannot be used to initialize an entity of type "int"
+
+/tmp/tmptuozaiyf/program_53.cu(59): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(59): error: variable "cudaEventRecord" has already been defined
+
+/tmp/tmptuozaiyf/program_53.cu(59): error: a value of type "cudaEvent_t" cannot be used to initialize an entity of type "int"
+
+/tmp/tmptuozaiyf/program_53.cu(62): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(62): error: declaration is incompatible with "cudaError_t cudaEventSynchronize(cudaEvent_t)"
+/usr/include/cuda_runtime_api.h(3263): here
+
+/tmp/tmptuozaiyf/program_53.cu(62): error: a value of type "cudaEvent_t" cannot be used to initialize an entity of type "int"
+
+/tmp/tmptuozaiyf/program_53.cu(63): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(63): error: variable "cudaEventSynchronize" has already been defined
+
+/tmp/tmptuozaiyf/program_53.cu(63): error: a value of type "cudaEvent_t" cannot be used to initialize an entity of type "int"
+
+/tmp/tmptuozaiyf/program_53.cu(67): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(67): error: identifier "deviceAddress" is undefined
+
+/tmp/tmptuozaiyf/program_53.cu(67): error: too many initializer values
+
+/tmp/tmptuozaiyf/program_53.cu(70): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(70): error: declaration is incompatible with "cudaError_t cudaFree(void *)"
+/usr/include/cuda_runtime_api.h(4927): here
+
+/tmp/tmptuozaiyf/program_53.cu(73): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(73): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_53.cu(76): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_53.cu(76): error: identifier "deviceId" is undefined
+
+/tmp/tmptuozaiyf/program_53.cu(77): error: this declaration has no storage class or type specifier
+
+At end of source: error: expected a ";"
+
+34 errors detected in the compilation of "/tmp/tmptuozaiyf/program_53.cu".
+
+❌ Compilation failed for: s108748030.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_54.cu(12): error: argument of type "cudaMemcpyKind" is incompatible with parameter of type "cudaStream_t"
+
+/tmp/tmptuozaiyf/program_54.cu(19): error: kernel launch from __device__ or __global__ functions requires separate compilation mode
+
+/tmp/tmptuozaiyf/program_54.cu(26): error: identifier "host_ptr" is undefined
+
+/tmp/tmptuozaiyf/program_54.cu(29): error: argument of type "cudaMemcpyKind" is incompatible with parameter of type "cudaStream_t"
+
+/tmp/tmptuozaiyf/program_54.cu(34): error: identifier "cudaInit" is undefined
+
+/tmp/tmptuozaiyf/program_54.cu(38): warning #549-D: variable "blockDim" is used before its value is set
+
+/tmp/tmptuozaiyf/program_54.cu(41): error: identifier "shared_ptr" is undefined
+
+/tmp/tmptuozaiyf/program_54.cu(41): error: identifier "cudaMallocSync" is undefined
+
+/tmp/tmptuozaiyf/program_54.cu(44): error: class "dim3" has no member "set"
+
+/tmp/tmptuozaiyf/program_54.cu(50): error: no instance of overloaded function "cudaLaunchKernel" matches the argument list
+            argument types are: (void (int, int), unsigned int, unsigned int, int, <error-type>)
+
+/tmp/tmptuozaiyf/program_54.cu(53): error: identifier "cudaWaitAll" is undefined
+
+/tmp/tmptuozaiyf/program_54.cu(56): error: identifier "cudaFreeSync" is undefined
+
+/tmp/tmptuozaiyf/program_54.cu(57): error: identifier "cudaFreeMemSync" is undefined
+
+/tmp/tmptuozaiyf/program_54.cu(60): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_54.cu(60): error: identifier "endl" is undefined
+
+14 errors detected in the compilation of "/tmp/tmptuozaiyf/program_54.cu".
+
+❌ Compilation failed for: s108801591.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_55.cu(9): error: identifier "align" is undefined
+
+/tmp/tmptuozaiyf/program_55.cu(9): error: initializer not allowed for __shared__ variable 
+
+/tmp/tmptuozaiyf/program_55.cu(10): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_55.cu(13): error: identifier "hostSum" is undefined
+
+/tmp/tmptuozaiyf/program_55.cu(13): error: argument of type "int" is incompatible with parameter of type "const void *"
+
+/tmp/tmptuozaiyf/program_55.cu(16): error: namespace "std" has no member "cout"
+
+/tmp/tmptuozaiyf/program_55.cu(16): error: namespace "std" has no member "endl"
+
+7 errors detected in the compilation of "/tmp/tmptuozaiyf/program_55.cu".
+
+❌ Compilation failed for: s109145798.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_56.cu(5): error: identifier "printf" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_56.cu".
+
+❌ Compilation failed for: s109285510.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s111370023.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_58.cu(1): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmptuozaiyf/program_58.cu(1): error: function main cannot be marked __device__ or __global__
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_58.cu".
+
+❌ Compilation failed for: s115507051.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_59.cu(4): error: identifier "matrix" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_59.cu".
+
+❌ Compilation failed for: s115719540.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_60.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_60.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_60.cu(35): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_60.cu(38): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_60.cu(38): error: declaration is incompatible with "void free(void *) noexcept(true)"
+/usr/include/crt/common_functions.h(158): here
+
+/tmp/tmptuozaiyf/program_60.cu(38): error: identifier "buffer" is undefined
+
+/tmp/tmptuozaiyf/program_60.cu(39): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_60.cu(39): error: variable "free" has already been defined
+
+/tmp/tmptuozaiyf/program_60.cu(39): error: identifier "new_matrix" is undefined
+
+/tmp/tmptuozaiyf/program_60.cu(40): error: expected a declaration
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+9 errors detected in the compilation of "/tmp/tmptuozaiyf/program_60.cu".
+
+❌ Compilation failed for: s115986407.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_61.cu(10): warning #181-D: argument is incompatible with corresponding format string conversion
+
+/tmp/tmptuozaiyf/program_61.cu(10): error: identifier "printf" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_61.cu".
+
+❌ Compilation failed for: s117390842.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_62.cu(12): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_62.cu(13): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_62.cu(17): error: identifier "block" is undefined
+
+/tmp/tmptuozaiyf/program_62.cu(17): error: identifier "FOR" is undefined
+
+/tmp/tmptuozaiyf/program_62.cu(17): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_62.cu(22): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_62.cu(16): warning #177-D: variable "sum" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_62.cu(30): error: expression must have class type but it has type "void"
+
+/tmp/tmptuozaiyf/program_62.cu(33): error: identifier "i" is undefined
+
+/tmp/tmptuozaiyf/program_62.cu(33): error: identifier "FOR" is undefined
+
+/tmp/tmptuozaiyf/program_62.cu(33): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_62.cu(40): warning #12-D: parsing restarts here after previous syntax error
+
+9 errors detected in the compilation of "/tmp/tmptuozaiyf/program_62.cu".
+
+❌ Compilation failed for: s117559955.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_63.cu(1): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmptuozaiyf/program_63.cu(1): error: incomplete type is not allowed
+
+/tmp/tmptuozaiyf/program_63.cu(1): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+2 errors detected in the compilation of "/tmp/tmptuozaiyf/program_63.cu".
+
+❌ Compilation failed for: s118075557.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_64.cu(1): warning #951-D: return type of function "main" must be "int"
+
+/tmp/tmptuozaiyf/program_64.cu(1): error: function main cannot be marked __device__ or __global__
+
+/tmp/tmptuozaiyf/program_64.cu(17): error: identifier "hostMemory" is undefined
+
+/tmp/tmptuozaiyf/program_64.cu(20): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_64.cu(21): error: expression must be a modifiable lvalue
+
+/tmp/tmptuozaiyf/program_64.cu(25): error: identifier "result" is undefined
+
+/tmp/tmptuozaiyf/program_64.cu(25): error: identifier "printHostResult" is undefined
+
+6 errors detected in the compilation of "/tmp/tmptuozaiyf/program_64.cu".
+
+❌ Compilation failed for: s123093127.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_65.cu(14): error: identifier "buffer" is undefined
+
+/tmp/tmptuozaiyf/program_65.cu(4): warning #177-D: variable "tid" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_65.cu(43): error: too many arguments in function call
+
+/tmp/tmptuozaiyf/program_65.cu(46): error: no instance of overloaded function "cudaLaunchKernel" matches the argument list
+            argument types are: (void (), int, int, int)
+
+/tmp/tmptuozaiyf/program_65.cu(49): error: identifier "cudaWaitAll" is undefined
+
+4 errors detected in the compilation of "/tmp/tmptuozaiyf/program_65.cu".
+
+❌ Compilation failed for: s123348533.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_66.cu(3): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmptuozaiyf/program_66.cu(3): error: incomplete type is not allowed
+
+/tmp/tmptuozaiyf/program_66.cu(3): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_66.cu(38): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_66.cu(39): error: identifier "blockDimX" is undefined
+
+/tmp/tmptuozaiyf/program_66.cu(39): error: identifier "blockDimY" is undefined
+
+/tmp/tmptuozaiyf/program_66.cu(40): error: identifier "threads_per_block" is undefined
+
+/tmp/tmptuozaiyf/program_66.cu(40): error: identifier "numBlocks" is undefined
+
+/tmp/tmptuozaiyf/program_66.cu(42): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_66.cu(42): error: declaration is incompatible with "cudaError_t cudaGetDeviceProperties(cudaDeviceProp *, int)"
+/usr/include/cuda_runtime_api.h(1667): here
+
+/tmp/tmptuozaiyf/program_66.cu(42): error: too many initializer values
+
+/tmp/tmptuozaiyf/program_66.cu(42): error: a value of type "cudaDeviceProp *" cannot be used to initialize an entity of type "int"
+
+/tmp/tmptuozaiyf/program_66.cu(43): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_66.cu(43): error: too many initializer values
+
+/tmp/tmptuozaiyf/program_66.cu(46): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_66.cu(46): error: identifier "context" is undefined
+
+/tmp/tmptuozaiyf/program_66.cu(49): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_66.cu(49): error: declaration is incompatible with overloaded function "cudaLaunchKernel"
+/usr/include/cuda_runtime_api.h(4040): here
+
+/tmp/tmptuozaiyf/program_66.cu(49): error: identifier "multiplication_kernel" is undefined
+
+/tmp/tmptuozaiyf/program_66.cu(49): error: identifier "A" is undefined
+
+/tmp/tmptuozaiyf/program_66.cu(49): error: identifier "B" is undefined
+
+/tmp/tmptuozaiyf/program_66.cu(49): error: identifier "C" is undefined
+
+/tmp/tmptuozaiyf/program_66.cu(49): error: too many initializer values
+
+/tmp/tmptuozaiyf/program_66.cu(52): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_66.cu(52): error: declaration is incompatible with "void free(void *) noexcept(true)"
+/usr/include/crt/common_functions.h(158): here
+
+/tmp/tmptuozaiyf/program_66.cu(53): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_66.cu(53): error: variable "free" has already been defined
+
+/tmp/tmptuozaiyf/program_66.cu(56): error: explicit type is missing ("int" assumed)
+
+/tmp/tmptuozaiyf/program_66.cu(56): error: cannot overload functions distinguished by return type alone
+
+/tmp/tmptuozaiyf/program_66.cu(57): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_66.cu(57): error: declaration is incompatible with "cudaError_t cudaFree(void *)"
+/usr/include/cuda_runtime_api.h(4927): here
+
+/tmp/tmptuozaiyf/program_66.cu(59): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_66.cu(60): error: expected a declaration
+
+31 errors detected in the compilation of "/tmp/tmptuozaiyf/program_66.cu".
+
+❌ Compilation failed for: s124300560.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_67.cu(8): error: identifier "printf" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_67.cu".
+
+❌ Compilation failed for: s126255281.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_68.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_68.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_68.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(27): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(28): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(29): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(30): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(31): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+/tmp/tmptuozaiyf/program_68.cu(32): error: unrecognized token
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+62 errors detected in the compilation of "/tmp/tmptuozaiyf/program_68.cu".
+
+❌ Compilation failed for: s132087713.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_69.cu(3): error: expression must have a constant value
+/tmp/tmptuozaiyf/program_69.cu(3): note #2689-D: the value of parameter "e"
+(1): here cannot be used as a constant
+
+/tmp/tmptuozaiyf/program_69.cu(15): error: namespace "std" has no member "cout"
+
+/tmp/tmptuozaiyf/program_69.cu(34): error: argument of type "int *" is incompatible with parameter of type "int"
+
+/tmp/tmptuozaiyf/program_69.cu(38): error: namespace "std" has no member "cout"
+
+4 errors detected in the compilation of "/tmp/tmptuozaiyf/program_69.cu".
+
+❌ Compilation failed for: s134883468.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_70.cu(5): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_70.cu(7): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_70.cu(7): error: identifier "endl" is undefined
+
+/tmp/tmptuozaiyf/program_70.cu(27): error: no operator "=" matches these operands
+            operand types are: const dim3 = int
+
+/tmp/tmptuozaiyf/program_70.cu(27): error: identifier "x" is undefined
+
+5 errors detected in the compilation of "/tmp/tmptuozaiyf/program_70.cu".
+
+❌ Compilation failed for: s135376322.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_71.cu(27): error: no instance of overloaded function "cudaMalloc" matches the argument list
+            argument types are: (int *, unsigned long)
+
+/tmp/tmptuozaiyf/program_71.cu(28): error: no instance of overloaded function "cudaMalloc" matches the argument list
+            argument types are: (int *, unsigned long)
+
+/tmp/tmptuozaiyf/program_71.cu(29): error: no instance of overloaded function "cudaMalloc" matches the argument list
+            argument types are: (int *, unsigned long)
+
+/tmp/tmptuozaiyf/program_71.cu(32): error: no operator "[]" matches these operands
+            operand types are: const dim3 [ int ]
+
+/tmp/tmptuozaiyf/program_71.cu(32): error: no operator "[]" matches these operands
+            operand types are: const dim3 [ int ]
+
+/tmp/tmptuozaiyf/program_71.cu(35): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_71.cu(36): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_71.cu(37): error: no operator "[]" matches these operands
+            operand types are: const dim3 [ int ]
+
+/tmp/tmptuozaiyf/program_71.cu(37): error: no operator "[]" matches these operands
+            operand types are: const dim3 [ int ]
+
+/tmp/tmptuozaiyf/program_71.cu(40): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_71.cu(43): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_71.cu(43): error: identifier "endl" is undefined
+
+/tmp/tmptuozaiyf/program_71.cu(46): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_71.cu(47): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_71.cu(48): error: argument of type "int" is incompatible with parameter of type "void *"
+
+15 errors detected in the compilation of "/tmp/tmptuozaiyf/program_71.cu".
+
+❌ Compilation failed for: s137903426.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_72.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_72.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_72.cu(35): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_72.cu(36): error: expected a declaration
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+3 errors detected in the compilation of "/tmp/tmptuozaiyf/program_72.cu".
+
+❌ Compilation failed for: s138393955.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_73.cu(6): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_73.cu(6): warning #177-D: variable "blockIdx" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_73.cu(16): error: identifier "a" is undefined
+
+/tmp/tmptuozaiyf/program_73.cu(17): error: identifier "b" is undefined
+
+/tmp/tmptuozaiyf/program_73.cu(18): error: identifier "c" is undefined
+
+/tmp/tmptuozaiyf/program_73.cu(21): error: identifier "input_data" is undefined
+
+/tmp/tmptuozaiyf/program_73.cu(26): error: no operator "=" matches these operands
+            operand types are: const dim3 = int
+
+/tmp/tmptuozaiyf/program_73.cu(26): error: identifier "x" is undefined
+
+/tmp/tmptuozaiyf/program_73.cu(29): error: identifier "output_data" is undefined
+
+/tmp/tmptuozaiyf/program_73.cu(38): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_73.cu(38): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+10 errors detected in the compilation of "/tmp/tmptuozaiyf/program_73.cu".
+
+❌ Compilation failed for: s138999449.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_74.cu(24): error: identifier "cudaDeviceWaitAll" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_74.cu".
+
+❌ Compilation failed for: s141683029.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_75.cu(8): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_75.cu(11): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_75.cu(14): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_75.cu(31): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_75.cu(31): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_75.cu(32): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_75.cu(32): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_75.cu(33): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_75.cu(33): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_75.cu(39): error: expression must have pointer-to-object type but it has type "int"
+
+/tmp/tmptuozaiyf/program_75.cu(39): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_75.cu(42): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_75.cu(43): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_75.cu(44): error: argument of type "int" is incompatible with parameter of type "void *"
+
+14 errors detected in the compilation of "/tmp/tmptuozaiyf/program_75.cu".
+
+❌ Compilation failed for: s141854533.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s142340575.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s142451840.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_78.cu(1): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmptuozaiyf/program_78.cu(1): error: incomplete type is not allowed
+
+/tmp/tmptuozaiyf/program_78.cu(1): error: identifier "x_t" is undefined
+
+/tmp/tmptuozaiyf/program_78.cu(1): error: identifier "x" is undefined
+
+/tmp/tmptuozaiyf/program_78.cu(1): error: identifier "y_t" is undefined
+
+/tmp/tmptuozaiyf/program_78.cu(1): error: identifier "y" is undefined
+
+/tmp/tmptuozaiyf/program_78.cu(1): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+6 errors detected in the compilation of "/tmp/tmptuozaiyf/program_78.cu".
+
+❌ Compilation failed for: s145254814.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_79.cu(18): error: identifier "device" is undefined
+
+/tmp/tmptuozaiyf/program_79.cu(20): error: identifier "device" is undefined
+
+/tmp/tmptuozaiyf/program_79.cu(28): error: identifier "global_z" is undefined
+
+3 errors detected in the compilation of "/tmp/tmptuozaiyf/program_79.cu".
+
+❌ Compilation failed for: s148401501.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_80.cu(1): error: identifier "string" is undefined
+
+1 error detected in the compilation of "/tmp/tmptuozaiyf/program_80.cu".
+
+❌ Compilation failed for: s150314734.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_81.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_81.cu(4): error: expected a ";"
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+2 errors detected in the compilation of "/tmp/tmptuozaiyf/program_81.cu".
+
+❌ Compilation failed for: s152727589.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_82.cu(10): error: no instance of overloaded function "cudaMalloc" matches the argument list
+            argument types are: (int *, unsigned long)
+
+/tmp/tmptuozaiyf/program_82.cu(11): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_82.cu(17): error: argument of type "int" is incompatible with parameter of type "void *"
+
+/tmp/tmptuozaiyf/program_82.cu(34): error: identifier "threadIdx_x" is undefined
+
+/tmp/tmptuozaiyf/program_82.cu(34): error: identifier "blockDim_x" is undefined
+
+/tmp/tmptuozaiyf/program_82.cu(35): error: identifier "threadIdx_y" is undefined
+
+/tmp/tmptuozaiyf/program_82.cu(35): error: identifier "blockDim_y" is undefined
+
+/tmp/tmptuozaiyf/program_82.cu(45): error: a __global__ function call must be configured
+
+8 errors detected in the compilation of "/tmp/tmptuozaiyf/program_82.cu".
+
+❌ Compilation failed for: s154326116.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_83.cu(14): error: a __global__ function call must be configured
+
+/tmp/tmptuozaiyf/program_83.cu(17): error: a __global__ function call must be configured
+
+/tmp/tmptuozaiyf/program_83.cu(20): error: a __global__ function call must be configured
+
+/tmp/tmptuozaiyf/program_83.cu(30): error: class "cudaDeviceProp" has no member "deviceSize"
+
+/tmp/tmptuozaiyf/program_83.cu(39): error: identifier "kernel" is undefined
+
+/tmp/tmptuozaiyf/program_83.cu(42): error: identifier "kernelLaunch" is undefined
+
+/tmp/tmptuozaiyf/program_83.cu(46): error: expression must have class type but it has type "void (*)(int, int)"
+
+7 errors detected in the compilation of "/tmp/tmptuozaiyf/program_83.cu".
+
+❌ Compilation failed for: s155183498.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_84.cu(12): error: identifier "global_x" is undefined
+
+/tmp/tmptuozaiyf/program_84.cu(13): error: identifier "global_y" is undefined
+
+/tmp/tmptuozaiyf/program_84.cu(16): error: identifier "host_x" is undefined
+
+/tmp/tmptuozaiyf/program_84.cu(27): error: argument of type "int *" is incompatible with parameter of type "int"
+
+/tmp/tmptuozaiyf/program_84.cu(27): error: argument of type "int *" is incompatible with parameter of type "int"
+
+/tmp/tmptuozaiyf/program_84.cu(35): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_84.cu(37): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_84.cu(37): error: identifier "endl" is undefined
+
+8 errors detected in the compilation of "/tmp/tmptuozaiyf/program_84.cu".
+
+❌ Compilation failed for: s155864961.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_85.cu(10): warning #177-D: variable "other_thread_id" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_85.cu(33): error: identifier "local_product" is undefined
+
+/tmp/tmptuozaiyf/program_85.cu(33): error: identifier "cudaGetDeviceLocalMemSize" is undefined
+
+/tmp/tmptuozaiyf/program_85.cu(35): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_85.cu(35): error: identifier "endl" is undefined
+
+4 errors detected in the compilation of "/tmp/tmptuozaiyf/program_85.cu".
+
+❌ Compilation failed for: s157516580.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_86.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_86.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_86.cu(24): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_86.cu(25): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_86.cu(49): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_86.cu(52): error: namespace "std" has no member "cout"
+
+/tmp/tmptuozaiyf/program_86.cu(52): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_86.cu(53): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_86.cu(56): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_86.cu(57): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_86.cu(64): warning #177-D: variable "thread_id" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_86.cu(65): warning #550-D: variable "global_l" was set but never used
+
+At end of source: error: expected a "}"
+
+8 errors detected in the compilation of "/tmp/tmptuozaiyf/program_86.cu".
+
+❌ Compilation failed for: s159208709.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_87.cu(8): error: identifier "result" is undefined
+
+/tmp/tmptuozaiyf/program_87.cu(10): error: identifier "globalCounter" is undefined
+
+2 errors detected in the compilation of "/tmp/tmptuozaiyf/program_87.cu".
+
+❌ Compilation failed for: s160425098.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_88.cu(28): error: expression must have arithmetic or unscoped enum type
+
+/tmp/tmptuozaiyf/program_88.cu(31): error: argument of type "float (*)[10]" is incompatible with parameter of type "float *"
+
+/tmp/tmptuozaiyf/program_88.cu(31): error: argument of type "float (*)[10]" is incompatible with parameter of type "float *"
+
+3 errors detected in the compilation of "/tmp/tmptuozaiyf/program_88.cu".
+
+❌ Compilation failed for: s160735704.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_89.cu(11): warning #177-D: variable "global_product" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_89.cu(19): error: identifier "blockDimX" is undefined
+
+/tmp/tmptuozaiyf/program_89.cu(20): error: identifier "gridDimY" is undefined
+
+/tmp/tmptuozaiyf/program_89.cu(26): warning #177-D: variable "y" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_89.cu(32): warning #177-D: variable "global_sum" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_89.cu(35): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_89.cu(35): error: identifier "global_product" is undefined
+
+/tmp/tmptuozaiyf/program_89.cu(35): error: identifier "endl" is undefined
+
+5 errors detected in the compilation of "/tmp/tmptuozaiyf/program_89.cu".
+
+❌ Compilation failed for: s160759013.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_90.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_90.cu(4): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_90.cu(28): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_90.cu(31): error: identifier "a" is undefined
+
+/tmp/tmptuozaiyf/program_90.cu(31): error: invalid specifier for structured binding declaration
+
+/tmp/tmptuozaiyf/program_90.cu(31): error: missing initializer
+
+/tmp/tmptuozaiyf/program_90.cu(31): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_90.cu(32): error: identifier "b" is undefined
+
+/tmp/tmptuozaiyf/program_90.cu(32): error: invalid specifier for structured binding declaration
+
+/tmp/tmptuozaiyf/program_90.cu(32): error: missing initializer
+
+/tmp/tmptuozaiyf/program_90.cu(32): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_90.cu(33): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_90.cu(55): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_90.cu(58): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_90.cu(58): error: declaration is incompatible with "cudaError_t cudaMemcpy(void *, const void *, size_t, cudaMemcpyKind)"
+/usr/include/cuda_runtime_api.h(6062): here
+
+/tmp/tmptuozaiyf/program_90.cu(58): error: identifier "c" is undefined
+
+/tmp/tmptuozaiyf/program_90.cu(58): error: identifier "n" is undefined
+
+/tmp/tmptuozaiyf/program_90.cu(58): error: identifier "m" is undefined
+
+/tmp/tmptuozaiyf/program_90.cu(58): error: too many initializer values
+
+/tmp/tmptuozaiyf/program_90.cu(59): error: expected a declaration
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+18 errors detected in the compilation of "/tmp/tmptuozaiyf/program_90.cu".
+
+❌ Compilation failed for: s161932711.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_91.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(4): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(25): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_91.cu(26): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(26): error: declaration is incompatible with "const dim3 gridDim"
+/usr/include/device_launch_parameters.h(74): here
+
+/tmp/tmptuozaiyf/program_91.cu(26): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(27): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(27): error: declaration is incompatible with "const uint3 threadIdx"
+/usr/include/device_launch_parameters.h(71): here
+
+/tmp/tmptuozaiyf/program_91.cu(27): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(28): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(28): error: variable "threadIdx" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(28): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(29): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(29): error: variable "threadIdx" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(29): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(32): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(32): error: declaration is incompatible with "const dim3 blockDim"
+/usr/include/device_launch_parameters.h(73): here
+
+/tmp/tmptuozaiyf/program_91.cu(32): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(33): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(33): error: variable "blockDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(33): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(34): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(34): error: variable "blockDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(34): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(35): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(35): error: variable "gridDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(35): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(36): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(36): error: variable "gridDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(36): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(37): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(37): error: variable "gridDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(37): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(38): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(38): error: variable "threadIdx" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(38): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(39): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(39): error: variable "threadIdx" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(39): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(40): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(40): error: variable "threadIdx" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(40): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(43): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(43): error: variable "blockDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(43): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(44): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(44): error: variable "blockDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(44): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(45): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(45): error: variable "blockDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(45): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(46): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(46): error: variable "gridDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(46): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(47): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(47): error: variable "gridDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(47): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(48): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(48): error: variable "gridDim" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(48): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(49): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(49): error: variable "threadIdx" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(49): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(50): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(50): error: variable "threadIdx" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(50): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_91.cu(51): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_91.cu(51): error: variable "threadIdx" has already been defined
+
+/tmp/tmptuozaiyf/program_91.cu(51): error: expected a ";"
+
+68 errors detected in the compilation of "/tmp/tmptuozaiyf/program_91.cu".
+
+❌ Compilation failed for: s162786996.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_92.cu(1): warning #1835-D: attribute "__global__" does not apply here
+
+/tmp/tmptuozaiyf/program_92.cu(1): error: incomplete type is not allowed
+
+/tmp/tmptuozaiyf/program_92.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_92.cu(22): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_92.cu(32): error: identifier "globalMatrix" is undefined
+
+/tmp/tmptuozaiyf/program_92.cu(35): warning #174-D: expression has no effect
+
+/tmp/tmptuozaiyf/program_92.cu(35): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_92.cu(38): error: identifier "blockID" is undefined
+
+/tmp/tmptuozaiyf/program_92.cu(44): error: identifier "threadID" is undefined
+
+/tmp/tmptuozaiyf/program_92.cu(49): error: identifier "cout" is undefined
+
+/tmp/tmptuozaiyf/program_92.cu(49): error: identifier "endl" is undefined
+
+/tmp/tmptuozaiyf/program_92.cu(54): error: identifier "deviceFree" is undefined
+
+/tmp/tmptuozaiyf/program_92.cu(26): warning #177-D: variable "gridDim" was declared but never referenced
+
+/tmp/tmptuozaiyf/program_92.cu(27): warning #177-D: variable "threadGridDim" was declared but never referenced
+
+9 errors detected in the compilation of "/tmp/tmptuozaiyf/program_92.cu".
+
+❌ Compilation failed for: s165301314.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s166989015.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_94.cu(24): error: identifier "cudaMemInfo" is undefined
+
+/tmp/tmptuozaiyf/program_94.cu(25): error: identifier "cudaMemInfo" is undefined
+
+/tmp/tmptuozaiyf/program_94.cu(25): error: identifier "cudaGetMemInfo" is undefined
+
+/tmp/tmptuozaiyf/program_94.cu(28): error: identifier "input_data" is undefined
+
+/tmp/tmptuozaiyf/program_94.cu(34): warning #549-D: variable "gridDim" is used before its value is set
+
+/tmp/tmptuozaiyf/program_94.cu(37): error: identifier "output_data" is undefined
+
+/tmp/tmptuozaiyf/program_94.cu(40): error: no instance of overloaded function "cudaLaunchKernel" matches the argument list
+            argument types are: (void (float *, float *, int), int, int, int, int, int, <error-type>)
+
+/tmp/tmptuozaiyf/program_94.cu(47): error: identifier "cout" is undefined
+
+7 errors detected in the compilation of "/tmp/tmptuozaiyf/program_94.cu".
+
+❌ Compilation failed for: s170966714.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_95.cu(3): error: expression must have a constant value
+/tmp/tmptuozaiyf/program_95.cu(3): note #2689-D: the value of parameter "n"
+(1): here cannot be used as a constant
+
+/tmp/tmptuozaiyf/program_95.cu(3): error: expression must have a constant value
+/tmp/tmptuozaiyf/program_95.cu(3): note #2689-D: the value of parameter "m"
+(1): here cannot be used as a constant
+
+/tmp/tmptuozaiyf/program_95.cu(11): error: identifier "i" is undefined
+
+/tmp/tmptuozaiyf/program_95.cu(14): error: identifier "isPrime" is undefined
+
+/tmp/tmptuozaiyf/program_95.cu(15): error: identifier "cout" is undefined
+
+5 errors detected in the compilation of "/tmp/tmptuozaiyf/program_95.cu".
+
+❌ Compilation failed for: s172721492.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_96.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_96.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_96.cu(32): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_96.cu(35): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_96.cu(39): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_96.cu(40): error: expected a declaration
+
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+
+4 errors detected in the compilation of "/tmp/tmptuozaiyf/program_96.cu".
+
+❌ Compilation failed for: s175922402.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_97.cu(1): error: this declaration has no storage class or type specifier
+
+/tmp/tmptuozaiyf/program_97.cu(1): error: expected a ";"
+
+/tmp/tmptuozaiyf/program_97.cu(23): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_97.cu(24): error: expected a declaration
+
+/tmp/tmptuozaiyf/program_97.cu(27): warning #12-D: parsing restarts here after previous syntax error
+
+/tmp/tmptuozaiyf/program_97.cu(30): error: identifier "a" is undefined
+
+/tmp/tmptuozaiyf/program_97.cu(30): error: invalid specifier for structured binding declaration
+
+/tmp/tmptuozaiyf/program_97.cu(30): error: identifier "product" is undefined
+
+/tmp/tmptuozaiyf/program_97.cu(31): error: expected a declaration
+
+/usr/include/c++/11/cstdint(65): error: the global scope has no "uint8_t"
+
+/tmp/tmptuozaiyf/program_97.cu(71): error: no operator "*" matches these operands
+            operand types are: const unsigned int * const dim3
+
+At end of source: error: expected a ";"
+
+/tmp/tmptuozaiyf/program_97.cu(51): warning #177-D: variable "product" was declared but never referenced
+
+At end of source: error: expected a "}"
+
+11 errors detected in the compilation of "/tmp/tmptuozaiyf/program_97.cu".
+
+❌ Compilation failed for: s178536876.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s179304460.cpp
+---- Compile stderr ----
+/tmp/tmptuozaiyf/program_99.cu(14): error: identifier "blockDimX" is undefined
+
+/tmp/tmptuozaiyf/program_99.cu(14): error: identifier "gridDimY" is undefined
+
+/tmp/tmptuozaiyf/program_99.cu(17): error: identifier "sumGridX" is undefined
+
+/tmp/tmptuozaiyf/program_99.cu(18): error: identifier "sumGridY" is undefined
+
+/tmp/tmptuozaiyf/program_99.cu(21): error: identifier "gridData" is undefined
+
+/tmp/tmptuozaiyf/program_99.cu(28): error: identifier "result" is undefined
+
+6 errors detected in the compilation of "/tmp/tmptuozaiyf/program_99.cu".
+

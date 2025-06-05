@@ -1,0 +1,6 @@
+#include <vector>
+#include <cuda_runtime.h>
+#include <cudart.h>
+#include <stdio.h>
+
+__global__ void multiply(int *a, int *b, int *c, int *d, int *e, int *f, int *g, int *h, int *i, int *j, int *k, int *l, int *m, int *n, int *o, int *p, int *q, int *r, int *s, int *t, int *u, int *v, int *w, int *x, int *y, int *z, int *a1, int *b1, int *c1, int *d1, int *e1, int *f1, int *g1, int *h1, int *i1, int *j1, int *k1, int *l1, int *m1, int *n1, int *o1, int *p1, int *q1, int *r1, int *s1, int *t1, int *u1, int *v1, int *w1, int *x1, int *y1, int *z1, int *a2, int *b2, int *c2, int *d2, int *e2, int *f2, int *g2, int *h2, int *i2, int *j2, int *k2, int *l2, int *m2, int *n2, int *o2, int *p2, int *q2, int *r2, int *s2, int *t2, int *u2, int *v2, int *w2, int *x2, int *y2, int *z2, int *a3, int *b3, int *c3, int *d3, int *e3, int *f3, int *g3, int *h3, int *i3, int *j3, int *k3, int *l3, int *m3, int *n3, int *o3, int *p3, int *q3, int *r3, int *s3, int *t3, int *u3, int *v3, int *w3, int *x3,

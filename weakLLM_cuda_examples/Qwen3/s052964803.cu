@@ -1,0 +1,31 @@
+#include <stdio.h>
+__global__ void f(int *a, int *b, int *c) {
+    int i = threadIdx.x;
+    int j = threadIdx.y;
+    int k = threadIdx.z;
+    int x = a[i] + b[j] + c[k];
+    int y = a[i] + b[j] * c[k];
+    int z = a[i] * b[j] + c[k];
+    int w = a[i] * b[j] * c[k];
+    int t = a[i] + b[j] + c[k];
+    int u = a[i] + b[j] * c[k] + c[k];
+    int v = a[i] * b[j] + c[k] * c[k];
+    int s = a[i] * b[j] * c[k] * c[k];
+    int t1 = a[i] + b[j] + c[k];
+    int u1 = a[i] + b[j] * c[k] + c[k];
+    int v1 = a[i] * b[j] + c[k] * c[k];
+    int s1 = a[i] * b[j] * c[k] * c[k];
+    int t2 = a[i] + b[j] + c[k];
+    int u2 = a[i] + b[j] * c[k] + c[k];
+    int v2 = a[i] * b[j] * c[k] * c[k];
+    int s2 = a[i] * b[j] * c[k] * c[k];
+    int t3 = a[i] + b[j] + c[k];
+    int u3 = a[i] + b[j] * c[k] + c[k];
+    int v3 = a[i] * b[j] * c[k] * c[k];
+    int s3 = a[i] * b[j] * c[k] * c[k];
+    int t4 = a[i] + b[j] + c[k];
+    int u4 = a[i] + b[j] * c[k] + c[k];
+    int v4 = a[i] * b[j] * c[k] * c[k];
+    int s4 = a[i] * b[j] * c[k] * c[k];
+    int t5 = a[i] + b[j] + c[k];
+    int u5 = a[i] + b[j] * c[k
