@@ -8,14 +8,15 @@ import torch
 import re
 import os
 from dotenv import load_dotenv
-
+from transformers import AutoModelForSeq2SeqLM
+# model = AutoModelForSeq2SeqLM.from_pretrained("Salesforce/codet5p-770m")
 load_dotenv()
 
 INPUT_FILES = os.getenv('INPUT_FOLDER_PATH')
 # ----- LOAD MODEL -----
-def load_model(model_path="hpcgroup/hpc-coder-v2-1.3b"):
+def load_model(model_path="Salesforce/codet5p-770m"):
     tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
-    model = AutoModelForCausalLM.from_pretrained(
+    model = AutoModelForSeq2SeqLM.from_pretrained(
         model_path,
         torch_dtype=torch.float16,
         device_map="auto",
@@ -24,7 +25,7 @@ def load_model(model_path="hpcgroup/hpc-coder-v2-1.3b"):
     return tokenizer, model
 
 # ----- LOAD FILES -----
-def load_code_files(folder_path, max_files=10):
+def load_code_files(folder_path, max_files=500):
     code_examples = []
     count = 0
     for filename in sorted(os.listdir(folder_path)):
@@ -100,7 +101,7 @@ def refine_code(original_code, broken_code, error_msg, tokenizer, model):
     return clean_translated_code(full_output[len(prompt):].strip())
 
 # ----- SAVE FILES -----
-def save_openmp_files(examples, output_dir="hpc_coder_OpenMP_Translated"):
+def save_openmp_files(examples, output_dir="codet5p_770M_OpenMP_Translated"):
     os.makedirs(output_dir, exist_ok=True)
     for ex in examples:
         base = os.path.splitext(ex["id"])[0]
@@ -229,12 +230,12 @@ if __name__ == "__main__":
         with Pool(processes=max(1, cpu_count() - 1)) as pool:
             final_results = pool.map(process_example, args)
 
-    json_file = "hpcCoder_openmp_results_with_refinement.json"
+    json_file = "codet5p_openmp_results_with_refinement.json"
     print(f"💾 Saving output to '{json_file}'")
     with open(json_file, "w") as f:
         json.dump(final_results, f, indent=2)
 
-    error_file = "hpcCoder_openmp_compile_and_run_errors_with_refinement.txt"
+    error_file = "codet5p_openmp_compile_and_run_errors_with_refinement.txt"
     with open(error_file, "w") as f:
         for result in final_results:
             if not result.get("compile_success", True):

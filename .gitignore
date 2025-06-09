@@ -216,3 +216,5 @@ weakLLM_cuda_examples/Project_CodeNet_C++1000.tar.gz
 cuda_examples/fullprogram_example6
 
 weakLLM_cuda_examples/DeepSeekR1/*
+.vscode/c_cpp_properties.json
+.vscode/tasks.json
