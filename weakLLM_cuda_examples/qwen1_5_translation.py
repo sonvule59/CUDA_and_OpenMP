@@ -44,7 +44,7 @@ def clean_translated_code(raw_output):
 
 def create_translation_prompt_qwen(c_code):
     return (
-        "You are and expert in code translation from C++ to CUDA. Translate the following C++ code to valid CUDA. "
+        "You are an expert in code translation from C++ to CUDA. Translate the following C++ code to valid CUDA. "
         "Return tran without markdown formatting, backticks, or explanation.\n\n"
         f"{c_code}\n\nCUDA code:"
     )
