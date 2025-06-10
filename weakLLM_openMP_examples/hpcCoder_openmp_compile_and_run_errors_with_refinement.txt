@@ -1,0 +1,212 @@
+🛑 Execution failed for: s001061911.cpp
+---- Run stderr ----
+Timeout
+
+❌ Compilation failed for: s002114670.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+❌ Compilation failed for: s003006852.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+🛑 Execution failed for: s003189043.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s003898708.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s004707294.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s005845061.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s006914968.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s007042193.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s007830238.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s010845670.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s012636535.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s012704191.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s022801097.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s024128016.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s028599501.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s028710136.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s034649860.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s046069668.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s046807106.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s053557410.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s055507883.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s055532349.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s056082383.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s061819799.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s065531967.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s067216700.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s069012233.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s069322445.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s069459738.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s069588127.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s072249009.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s076457575.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s077574215.cpp
+---- Run stderr ----
+Timeout
+
+❌ Compilation failed for: s078173883.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+🛑 Execution failed for: s079340330.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s089739726.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s090025448.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s090195569.cpp
+---- Run stderr ----
+Timeout
+
+❌ Compilation failed for: s093230943.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+🛑 Execution failed for: s093517465.cpp
+---- Run stderr ----
+Timeout
+
+❌ Compilation failed for: s095575061.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+🛑 Execution failed for: s097434546.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s102927004.cpp
+---- Run stderr ----
+Timeout
+
+❌ Compilation failed for: s107928186.cpp
+---- Compile stderr ----
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+🛑 Execution failed for: s109465441.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s109562584.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s112306893.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s117571931.cpp
+---- Run stderr ----
+Timeout
+
+🛑 Execution failed for: s117772886.cpp
+---- Run stderr ----
+Timeout
+

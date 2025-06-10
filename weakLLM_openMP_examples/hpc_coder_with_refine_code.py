@@ -24,7 +24,7 @@ def load_model(model_path="hpcgroup/hpc-coder-v2-1.3b"):
     return tokenizer, model
 
 # ----- LOAD FILES -----
-def load_code_files(folder_path, max_files=500):
+def load_code_files(folder_path, max_files=50):
     code_examples = []
     count = 0
     for filename in sorted(os.listdir(folder_path)):
@@ -47,7 +47,7 @@ def create_openmp_prompt(code, language):
     lang_text = "C++" if language == "cpp" else "C"
     return (
         f"You are an expert in code translation from C++ to OpenMP. Translate the following C++ code to use OpenMP for parallelization. "
-        "Focus on parallel loops or sections. Output valid code only with no markdown or explanation.\n\n"
+        "Focus on parallel loops or sections. Please return a **complete and compilable** C++ program with a `main()` function. Output valid code only with no markdown or explanation.\n\n"
         f"{code}\n\nOpenMP code:"
     )
 
@@ -82,6 +82,7 @@ def translate_code_to_openmp(code, language, tokenizer, model):
         do_sample=False,
         pad_token_id=tokenizer.eos_token_id
     )
+    torch.cuda.empty_cache()
     full_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return clean_translated_code(full_output[len(prompt):].strip())
 
@@ -96,11 +97,12 @@ def refine_code(original_code, broken_code, error_msg, tokenizer, model):
         do_sample=False,
         pad_token_id=tokenizer.eos_token_id
     )
+    torch.cuda.empty_cache()
     full_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return clean_translated_code(full_output[len(prompt):].strip())
 
 # ----- SAVE FILES -----
-def save_openmp_files(examples, output_dir="hpc_coder_OpenMP_Translated"):
+def save_openmp_files(examples, output_dir="hpc_coder_OpenMP_Translated_p00001"):
     os.makedirs(output_dir, exist_ok=True)
     for ex in examples:
         base = os.path.splitext(ex["id"])[0]
@@ -125,7 +127,7 @@ def compile_code_file(code_path: str, language: str):
             [compiler, "-fopenmp", code_path, "-o", exe_path],
             capture_output=True,
             text=True,
-            timeout=10
+            timeout=15
         )
         return {
             "source": code_path,
@@ -149,7 +151,7 @@ def run_executable(exe_path: str):
             [exe_path],
             capture_output=True,
             text=True,
-            timeout=5
+            timeout=15
         )
         return {
             "run_stdout": result.stdout.strip(),
@@ -179,7 +181,11 @@ def process_example(args):
 
     if not compile_result["compile_success"]:
         refined_code = refine_code(ex["code"], code, compile_result["compile_stderr"], tokenizer, model)
-        refined_path = write_code_file(refined_code, f"{idx}_refined", ex["language"], dir_path)
+        persistent_refined_dir = "refined_hpc_openmp_code"
+        os.makedirs(persistent_refined_dir, exist_ok=True)
+        refined_path = write_code_file(refined_code, f"{idx}_refined", ex["language"], persistent_refined_dir)
+
+        # refined_path = write_code_file(refined_code, f"{idx}_refined", ex["language"], dir_path)
         refined_result = compile_code_file(refined_path, ex["language"])
         result["refined"] = True
         result["translated_code"] = refined_code
@@ -204,8 +210,9 @@ if __name__ == "__main__":
     #Set multiprocessing to use 'spawn' to avoid CUDA re-initialization error
     import multiprocessing as mp
     mp.set_start_method("spawn", force=True)
-    
-    folder = INPUT_FILES
+
+    # folder = INPUT_FILES
+    folder = "/home/hungphd/Son/weakLLM_cuda_examples/Project_CodeNet_C++1000/p00001"
     print(f"📂 Loading files from: {folder}")
     code_examples = load_code_files(folder)
 
@@ -230,8 +237,14 @@ if __name__ == "__main__":
     print("⚙️  Compiling and running...")
     with tempfile.TemporaryDirectory() as tmpdir:
         args = [(ex, i, tmpdir, tokenizer, model) for i, ex in enumerate(translated_examples)]
-        with Pool(processes=max(1, cpu_count() - 1)) as pool:
-            final_results = pool.map(process_example, args)
+        # with Pool(processes=max(1, cpu_count() - 1)) as pool:
+        #     final_results = pool.map(process_example, args)
+
+    # # 🧵 Serial execution (commented out multiprocessing)
+        final_results = []
+        for arg in args:
+            result = process_example(arg)
+            final_results.append(result)
 
     json_file = "hpcCoder_openmp_results_with_refinement.json"
     print(f"💾 Saving output to '{json_file}'")
