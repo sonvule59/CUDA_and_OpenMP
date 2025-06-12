@@ -8,15 +8,14 @@ import torch
 import re
 import os
 from dotenv import load_dotenv
-from transformers import AutoModelForSeq2SeqLM
-# model = AutoModelForSeq2SeqLM.from_pretrained("Salesforce/codet5p-770m")
+
 load_dotenv()
 
 INPUT_FILES = os.getenv('INPUT_FOLDER_PATH')
 # ----- LOAD MODEL -----
-def load_model(model_path="Salesforce/codet5p-770m"):
+def load_model(model_path="hpcgroup/hpc-coder-v2-1.3b"):
     tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
-    model = AutoModelForSeq2SeqLM.from_pretrained(
+    model = AutoModelForCausalLM.from_pretrained(
         model_path,
         torch_dtype=torch.float16,
         device_map="auto",
@@ -25,7 +24,7 @@ def load_model(model_path="Salesforce/codet5p-770m"):
     return tokenizer, model
 
 # ----- LOAD FILES -----
-def load_code_files(folder_path, max_files=15):
+def load_code_files(folder_path, max_files=50):
     code_examples = []
     count = 0
     for filename in sorted(os.listdir(folder_path)):
@@ -44,24 +43,24 @@ def load_code_files(folder_path, max_files=15):
     return code_examples
 
 # ----- PROMPT CREATION -----
-def create_openmp_prompt(code, language):
+def create_CUDA_prompt(code, language):
     lang_text = "C++" if language == "cpp" else "C"
     return (
-        f"You are an expert in code translation from {lang_text} to OpenMP. Translate the following {lang_text} code to use OpenMP for parallelization. "
-        "Focus on parallel loops or sections. Output valid code only with no markdown or explanation.\n\n"
-        f"{code}\n\nOpenMP code:"
+        f"You are an expert in code translation from C++ to CUDA. Translate the following C++ code to use CUDA for parallelization. "
+        "Focus on parallel loops or sections. Please return a **complete and compilable** C++ program with a `main()` function. Output valid code only with no markdown or explanation.\n\n"
+        f"{code}\n\nCUDA code:"
     )
 
 def create_fix_prompt(original_code, broken_code, error_text):
     return (
-        "You translated this C/C++ code into OpenMP-parallelized code, but it failed to compile.\n"
+        "You translated this C/C++ code into CUDA-parallelized code, but it failed to compile.\n"
         "Here is the original code:\n"
         f"{original_code}\n\n"
-        "Here is the broken OpenMP code that failed:\n"
+        "Here is the broken CUDA code that failed:\n"
         f"{broken_code}\n\n"
         "Here is the compiler error:\n"
         f"{error_text}\n\n"
-        "Please fix the OpenMP code so that it compiles. Return only valid code with no markdown or explanation."
+        "Please fix the CUDA code so that it compiles. Return only valid code with no markdown or explanation."
     )
 
 # ----- CLEAN OUTPUT -----
@@ -72,8 +71,8 @@ def clean_translated_code(raw_output):
     return raw_output.replace("```", "").strip()
 
 # ----- TRANSLATION -----
-def translate_code_to_openmp(code, language, tokenizer, model):
-    prompt = create_openmp_prompt(code, language)
+def translate_code_to_CUDA(code, language, tokenizer, model):
+    prompt = create_CUDA_prompt(code, language)
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
     outputs = model.generate(
         **inputs,
@@ -83,6 +82,7 @@ def translate_code_to_openmp(code, language, tokenizer, model):
         do_sample=False,
         pad_token_id=tokenizer.eos_token_id
     )
+    torch.cuda.empty_cache()
     full_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return clean_translated_code(full_output[len(prompt):].strip())
 
@@ -97,11 +97,12 @@ def refine_code(original_code, broken_code, error_msg, tokenizer, model):
         do_sample=False,
         pad_token_id=tokenizer.eos_token_id
     )
+    torch.cuda.empty_cache()
     full_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return clean_translated_code(full_output[len(prompt):].strip())
 
 # ----- SAVE FILES -----
-def save_openmp_files(examples, output_dir="codet5p_770M_OpenMP_Translated"):
+def save_CUDA_files(examples, output_dir="hpc_coder_CUDA_Translated_p00001"):
     os.makedirs(output_dir, exist_ok=True)
     for ex in examples:
         base = os.path.splitext(ex["id"])[0]
@@ -120,13 +121,13 @@ def write_code_file(code: str, file_id: int, language: str, dir_path: str):
 
 def compile_code_file(code_path: str, language: str):
     exe_path = code_path.rsplit(".", 1)[0]
-    compiler = "g++" if language == "cpp" else "gcc"
+    compiler = "nvcc" if language == "cpp" else "gcc"
     try:
         result = subprocess.run(
-            [compiler, "-fopenmp", code_path, "-o", exe_path],
+            [compiler, "nvcc", code_path, "-o", exe_path],
             capture_output=True,
             text=True,
-            timeout=10
+            timeout=15
         )
         return {
             "source": code_path,
@@ -150,7 +151,7 @@ def run_executable(exe_path: str):
             [exe_path],
             capture_output=True,
             text=True,
-            timeout=5
+            timeout=15
         )
         return {
             "run_stdout": result.stdout.strip(),
@@ -180,7 +181,11 @@ def process_example(args):
 
     if not compile_result["compile_success"]:
         refined_code = refine_code(ex["code"], code, compile_result["compile_stderr"], tokenizer, model)
-        refined_path = write_code_file(refined_code, f"{idx}_refined", ex["language"], dir_path)
+        persistent_refined_dir = "refined_hpc_CUDA_code"
+        os.makedirs(persistent_refined_dir, exist_ok=True)
+        refined_path = write_code_file(refined_code, f"{idx}_refined", ex["language"], persistent_refined_dir)
+
+        # refined_path = write_code_file(refined_code, f"{idx}_refined", ex["language"], dir_path)
         refined_result = compile_code_file(refined_path, ex["language"])
         result["refined"] = True
         result["translated_code"] = refined_code
@@ -202,19 +207,24 @@ def process_example(args):
 
 # ----- MAIN -----
 if __name__ == "__main__":
-    folder = INPUT_FILES
+    #Set multiprocessing to use 'spawn' to avoid CUDA re-initialization error
+    import multiprocessing as mp
+    mp.set_start_method("spawn", force=True)
+
+    # folder = INPUT_FILES
+    folder = "/home/hungphd/Son/weakLLM_cuda_examples/Project_CodeNet_C++1000/p00001"
     print(f"📂 Loading files from: {folder}")
     code_examples = load_code_files(folder)
 
     print("🚀 Loading model...")
     tokenizer, model = load_model()
 
-    print("🔁 Translating to OpenMP...")
+    print("🔁 Translating to CUDA...")
     translated_examples = []
     for i, ex in enumerate(code_examples):
         print(f"🔹 Translating {ex['id']}")
-        omp_code = translate_code_to_openmp(ex["code"], ex["language"], tokenizer, model)
-        print("🔸 OpenMP preview:", "\n".join(omp_code.splitlines()[:5]), "\n...")
+        omp_code = translate_code_to_CUDA(ex["code"], ex["language"], tokenizer, model)
+        print("🔸 CUDA preview:", "\n".join(omp_code.splitlines()[:5]), "\n...")
         translated_examples.append({
             "id": ex["id"],
             "language": ex["language"],
@@ -222,23 +232,26 @@ if __name__ == "__main__":
             "translated_code": omp_code
         })
 
-    save_openmp_files(translated_examples)
+    save_CUDA_files(translated_examples)
 
     print("⚙️  Compiling and running...")
     with tempfile.TemporaryDirectory() as tmpdir:
         args = [(ex, i, tmpdir, tokenizer, model) for i, ex in enumerate(translated_examples)]
         # with Pool(processes=max(1, cpu_count() - 1)) as pool:
         #     final_results = pool.map(process_example, args)
+
+    # # 🧵 Serial execution (commented out multiprocessing)
         final_results = []
         for arg in args:
             result = process_example(arg)
-    final_results.append(result)
-    json_file = "codet5p_openmp_results_with_refinement.json"
+            final_results.append(result)
+
+    json_file = "hpcCoder_cuda_results_with_refinement.json"
     print(f"💾 Saving output to '{json_file}'")
     with open(json_file, "w") as f:
         json.dump(final_results, f, indent=2)
 
-    error_file = "codet5p_openmp_compile_and_run_errors_with_refinement.txt"
+    error_file = "hpcCoder_cuda_compile_and_run_errors_with_refinement.txt"
     with open(error_file, "w") as f:
         for result in final_results:
             if not result.get("compile_success", True):
