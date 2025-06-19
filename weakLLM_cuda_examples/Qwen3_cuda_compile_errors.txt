@@ -63,7 +63,8 @@ At end of source: warning #12-D: parsing restarts here after previous syntax err
 ❌ Compilation failed: s020914857.cu
 /home/hungphd/Son/weakLLM_cuda_examples/Qwen3_translated_CUDA/s020914857.cu(2): warning #1835-D: attribute "__global__" does not apply here
 
-/home/hungphd/Son/weakLLM_cuda_examples/Qwen3_translated_CUDA/s020914857.cu(2): error: "main" cannot be used as a global variable name or given C language linkage
+/home/hungphd/Son/weakLLM_cuda_examples/Qwen3_translated_CUDA/s020914857.cu(2): error: "main" cannot be used as a global variable name or 
+given C language linkage
 
 /home/hungphd/Son/weakLLM_cuda_examples/Qwen3_translated_CUDA/s020914857.cu(2): error: incomplete type is not allowed
 
