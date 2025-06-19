@@ -15,4 +15,5 @@ int main(){
     print_table<<<1,100>>>(d_table);
     cudaDeviceSynchronize();
     cudaFree(d_table);
+    return 0;
 }

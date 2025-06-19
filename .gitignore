@@ -219,3 +219,5 @@ weakLLM_cuda_examples/DeepSeekR1/*
 .vscode/c_cpp_properties.json
 .vscode/tasks.json
 
+weakLLM_cuda_examples/cuda_bin/
+*.out

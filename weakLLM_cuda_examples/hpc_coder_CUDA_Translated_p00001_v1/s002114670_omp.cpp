@@ -1,9 +1,9 @@
-c++
+
 #include <algorithm>
 #include <iostream>
 #include <vector>
 
-__global__ void sort_hills(int *hills, int n) {
+global__ void sort_hills(int *hills, int n) {
     int idx = threadIdx.x + blockIdx.x * blockDim.x;
     if (idx < n) {
         for (int i = idx + 1; i < n; ++i) {
