@@ -1,0 +1,27 @@
+Please note: 
+- Your answer should be only CUDA code, no markdown or explanations.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not modify the code in any way.
+- You may use any standard CUDA libraries, but you should not

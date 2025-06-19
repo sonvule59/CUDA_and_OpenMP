@@ -3,7 +3,7 @@ import subprocess
 import json
 import time
 
-CUDA_SOURCE_DIR = "/home/hungphd/Son/weakLLM_cuda_examples/DeepSeekR1"      
+CUDA_SOURCE_DIR = "/home/hungphd/Son/weakLLM_cuda_examples/Qwen3_translated_CUDA"      
 CUDA_OUTPUT_DIR = "./cuda_bin"           # Executable output dir
 os.makedirs(CUDA_OUTPUT_DIR, exist_ok=True)
 
@@ -78,11 +78,11 @@ for cu_file in cu_files:
     results.append(entry)
 
 # Save full JSON log
-with open("DeepSeekR1_cuda_compile_log.json", "w") as f:
+with open("Qwen3_cuda_compile_log.json", "w") as f:
     json.dump(results, f, indent=2)
 
 # Save error log
-with open("DeepSeekR1_cuda_compile_errors.txt", "w") as f:
+with open("Qwen3_cuda_compile_errors.txt", "w") as f:
     f.writelines(error_lines)
 
 print("✅ Compilation & execution complete. Logs saved.")
