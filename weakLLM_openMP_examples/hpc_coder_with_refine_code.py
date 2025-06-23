@@ -220,7 +220,7 @@ if __name__ == "__main__":
     tokenizer, model = load_model()
 
     print("🔁 Translating to OpenMP...")
-    translated_examples = []
+    translated_examples = [] 
     for i, ex in enumerate(code_examples):
         print(f"🔹 Translating {ex['id']}")
         omp_code = translate_code_to_openmp(ex["code"], ex["language"], tokenizer, model)
